@@ -4,11 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="git-02, 皖熊的博客">
-    <meta name="description" content="生成 SSH key① 打开 Git Bash
-② 粘贴如下的命令，并将 your_email@example.com 替换为注册 Github 账号时填写的邮箱：
-
-ssh-keygen -t rsa -b 4096 -C &#34;your_e">
+    <meta name="keywords" content="监听数组变化, 皖熊的博客">
+    <meta name="description" content="利用 Vue 中 keep-alive，快速实现页面缓存Vue 中 watch 无法直接监听数组里面对象键所对应值的变化 暂不考虑 deep true
+Object.defineProperty(item, &#39;signalLevel&#39;, {">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +14,7 @@ ssh-keygen -t rsa -b 4096 -C &#34;your_e">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>git-02 | 皖熊的博客</title>
+    <title>监听数组变化 | 皖熊的博客</title>
     <link rel="icon" type="image/png" href="https://a-xionglijun.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://a-xionglijun.github.io/libs/awesome/css/all.css">
@@ -327,7 +325,7 @@ ssh-keygen -t rsa -b 4096 -C &#34;your_e">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">git-02</h1>
+                    <h1 class="description center-align post-title">监听数组变化</h1>
                 </div>
             </div>
         </div>
@@ -444,8 +442,8 @@ ssh-keygen -t rsa -b 4096 -C &#34;your_e">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/git/">
-                                <span class="chip bg-color">git</span>
+                            <a href="/tags/Proxy/">
+                                <span class="chip bg-color">Proxy</span>
                             </a>
                         
                     </div>
@@ -456,8 +454,8 @@ ssh-keygen -t rsa -b 4096 -C &#34;your_e">
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/" class="post-category">
-                                安装配置
+                            <a href="/categories/vue/" class="post-category">
+                                vue
                             </a>
                         
                     </div>
@@ -469,28 +467,28 @@ ssh-keygen -t rsa -b 4096 -C &#34;your_e">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-12-02
+                    2020-12-28
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-12-03
+                    2020-12-28
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.6k
+                    129
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    6 分
+                    1 分
                 </div>
                 
 
@@ -506,103 +504,21 @@ ssh-keygen -t rsa -b 4096 -C &#34;your_e">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h4 id="生成-SSH-key"><a href="#生成-SSH-key" class="headerlink" title="生成 SSH key"></a>生成 SSH key</h4><p>① 打开 Git Bash</p>
-<p>② 粘贴如下的命令，并将 <code>your_email@example.com</code> 替换为注册 <code>Github</code> 账号时填写的邮箱：</p>
-<ul>
-<li><code>ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</code></li>
-</ul>
-<p>③ 连续敲击 3 次回车，即可在 <code>C:\Users\用户名文件夹\.ssh</code> 目录中生成 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 两个文件</p>
-<h4 id="配置-SSH-key"><a href="#配置-SSH-key" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h4><p>① 使用记事本打开 <code>id_rsa.pub</code> 文件，复制里面的文本内容</p>
-<p>② 在浏览器中登录 <code>Github</code>，点击头像 -&gt; <code>Settings -&gt; SSH and GPG Keys -&gt; New SSH key</code></p>
-<p>③ 将 <code>id_rsa.pub</code> 文件中的内容，粘贴到 <code>Key</code> 对应的文本框中</p>
-<p>④ 在 <code>Title</code> 文本框中任意填写一个名称，来标识这个 <code>Key</code> 从何而来</p>
-<h4 id="检测-Github-的-SSH-key-是否配置成功"><a href="#检测-Github-的-SSH-key-是否配置成功" class="headerlink" title="检测 Github 的 SSH key 是否配置成功"></a>检测 <code>Github</code> 的 <code>SSH key</code> 是否配置成功</h4><ul>
-<li><p>打开 <code>Git Bash</code>，输入如下的命令并回车执行：</p>
-<pre class=" language-shell"><code class="language-shell">ssh -T git@github.com</code></pre>
-</li>
-<li><p>上述的命令执行成功后，可能会看到提示消息</p>
-</li>
-<li><p>输入 <code>yes</code> 之后，如果能看到类似于下面的提示消息，证明 <code>SSH key</code> 已经配置成功了：</p>
-</li>
-</ul>
-<h4 id="基于-SSH-将本地仓库上传到-Github"><a href="#基于-SSH-将本地仓库上传到-Github" class="headerlink" title="基于 SSH 将本地仓库上传到 Github"></a>基于 SSH 将本地仓库上传到 <code>Github</code></h4><p><strong>注意：</strong> <code>git push origin master</code> 也能进行提交，<code>git push origin -u</code> 的话可以提交代码，并且把<code>origin</code> 当作默认的主机，后续直接 <code>git push</code> 就可以提交到<code>origin</code>对应的主机</p>
-<h4 id="将远程仓库克隆到本地"><a href="#将远程仓库克隆到本地" class="headerlink" title="将远程仓库克隆到本地"></a>将远程仓库克隆到本地</h4><p>打开 <code>Git Bash</code>，输入如下的命令并回车执行：</p>
-<pre class=" language-shell"><code class="language-shell">git clone 远程仓库的地址</code></pre>
-<h1 id="Git分支"><a href="#Git分支" class="headerlink" title="Git分支"></a><code>Git</code>分支</h1><h2 id="分支的概念"><a href="#分支的概念" class="headerlink" title="分支的概念"></a>分支的概念</h2><h2 id="master-主分支"><a href="#master-主分支" class="headerlink" title="master 主分支"></a>master 主分支</h2><p>在初始化本地 <code>Git</code> 仓库的时候，<code>Git</code> 默认已经帮我们创建了一个名字叫做 <code>master</code> 的分支。通常我们把这个</p>
-<p><code>master</code> 分支叫做主分支。</p>
-<p>在实际工作中，<code>master</code> 主分支的作用是：<strong>用来保存和记录整个项目已完成的功能代码</strong>。</p>
-<p>因此，<strong>不允许程序员直接在 <code>master</code> 分支上修改代码</strong>，因为这样做的风险太高，容易导致整个项目崩溃。</p>
-<h2 id="功能分支"><a href="#功能分支" class="headerlink" title="功能分支"></a>功能分支</h2><p>由于程序员不能直接在 <code>master</code> 分支上进行功能的开发，所以就有了功能分支的概念。</p>
-<p><strong>功能分支</strong>指的是专门用来开发新功能的分支，它是临时从 <code>master</code> 主分支上分叉出来的，当新功能开发且测试</p>
-<p>完毕后，最终需要合并到 <code>master</code> 主分支上</p>
-<h2 id="查看分支列表-⭐⭐⭐"><a href="#查看分支列表-⭐⭐⭐" class="headerlink" title="查看分支列表(⭐⭐⭐)"></a>查看分支列表(⭐⭐⭐)</h2><p>使用如下的命令，可以查看当前 Git 仓库中所有的分支列表：</p>
-<pre class=" language-shell"><code class="language-shell">git branch</code></pre>
-<p>运行的结果如下所示：</p>
-<p><img src="images/%E6%9F%A5%E7%9C%8B%E5%88%86%E6%94%AF.png"></p>
-<p><strong>注意：</strong>分支名字前面的 <strong>*</strong> 号表示当前所处的分支。</p>
-<h2 id="创建新分支"><a href="#创建新分支" class="headerlink" title="创建新分支"></a>创建新分支</h2><p>使用如下的命令，可以<strong>基于当前分支</strong>，<strong>创建一个新的分支</strong>，此时，新分支中的代码和当前分支完全一样：</p>
-<pre><code>git branch 分支名称</code></pre>
-<h2 id="切换分支"><a href="#切换分支" class="headerlink" title="切换分支"></a>切换分支</h2><p>使用如下的命令，可以<strong>切换到指定的分支上</strong>进行开发：</p>
-<pre class=" language-shell"><code class="language-shell">git checkout login</code></pre>
-<h2 id="分支的快速创建和切换-⭐⭐⭐"><a href="#分支的快速创建和切换-⭐⭐⭐" class="headerlink" title="分支的快速创建和切换(⭐⭐⭐)"></a>分支的快速创建和切换(⭐⭐⭐)</h2><p>使用如下的命令，可以<strong>创建指定名称的新分支</strong>，并<strong>立即切换到新分支上</strong>：</p>
-<pre class=" language-shell"><code class="language-shell"># -b 表示创建一个新分支
-# checkout 表示切换到刚才新建的分支上
-git checkout -b 分支名称</code></pre>
-<p><strong>注意：</strong></p>
-<p>“<code>git checkout -b 分支名称</code>“ 是下面</p>
-<p>两条命令的简写形式：</p>
-<p>① <code>git branch</code> 分支名称</p>
-<p>② <code>git checkout</code> 分支名称</p>
-<h2 id="合并分支"><a href="#合并分支" class="headerlink" title="合并分支"></a>合并分支</h2><p>功能分支的代码开发测试完毕之后，可以使用如下的命令，将完成后的代码合并到 <code>master</code> 主分支上：</p>
-<pre class=" language-shell"><code class="language-shell"># 1. 切换到 master 分支
-git checkout master
-# 2. 在master 分支上运行 git merge 命令，将 login 分支的代码合班到 master 分支
-git merge login</code></pre>
-<p><strong>合并分支时的注意点</strong>：</p>
-<p>假设要把 C 分支的代码合并到 A 分支，</p>
-<p>则必须<strong>先切换到 A 分支</strong>上，<strong>再运行 git merge 命令</strong>，来合并 C 分支！</p>
-<h2 id="删除分支"><a href="#删除分支" class="headerlink" title="删除分支"></a>删除分支</h2><p>当把功能分支的代码合并到 <code>master</code> 主分支上以后，就可以使用如下的命令，删除对应的功能分支：</p>
-<pre class=" language-shell"><code class="language-shell">git branch -d 分支名称</code></pre>
-<h2 id="遇到冲突时的分支合并"><a href="#遇到冲突时的分支合并" class="headerlink" title="遇到冲突时的分支合并"></a>遇到冲突时的分支合并</h2><p>如果<strong>在两个不同的分支中</strong>，对<strong>同一个文件</strong>进行了<strong>不同的修改</strong>，Git 就没法干净的合并它们。 此时，我们需要打开</p>
-<p>这些包含冲突的文件然后<strong>手动解决冲突</strong>。</p>
-<pre class=" language-shell"><code class="language-shell"># 假设：在把 reg 分支合并到 master 分支期间
-git checkout master
-git merge reg
-
-# 打开包含冲突的文件，手动解决冲突之后，再执行如下命令
-git add .
-git commit -m "解决了分支合并冲突的问题"</code></pre>
-<h1 id="远程分支操作"><a href="#远程分支操作" class="headerlink" title="远程分支操作"></a>远程分支操作</h1><h2 id="将本地分支推送到远程仓库-⭐⭐⭐"><a href="#将本地分支推送到远程仓库-⭐⭐⭐" class="headerlink" title="将本地分支推送到远程仓库(⭐⭐⭐)"></a>将本地分支推送到远程仓库(⭐⭐⭐)</h2><p>如果是<strong>第一次</strong>将本地分支推送到远程仓库，需要运行如下的命令：</p>
-<pre class=" language-shell"><code class="language-shell"># -u 表示把本地分支和远程分支进行关联，只在第一次推送的时候需要带 -u 参数
-git push -u 远程仓库的别名 本地分支名称:远程分支名称
-
-# 实际案例
-git push -u origin payment:pay
-
-# 如果希望远程分支的名称和本地分支名称保持一致，可以对命令进行简化
-git push -u origin payment</code></pre>
-<p><strong>注意：</strong>第一次推送分支需要带 <strong>-u 参数</strong>，此后可以直接使用 <code>git push</code> 推送代码到远程分支。</p>
-<h2 id="查看远程仓库中所有的分支列表"><a href="#查看远程仓库中所有的分支列表" class="headerlink" title="查看远程仓库中所有的分支列表"></a>查看远程仓库中所有的分支列表</h2><p>通过如下的命令，可以查看远程仓库中，所有的分支列表的信息：</p>
-<pre class=" language-shell"><code class="language-shell">git remote show 远程仓库名称</code></pre>
-<h2 id="拉取远程仓库中指定分支"><a href="#拉取远程仓库中指定分支" class="headerlink" title="拉取远程仓库中指定分支"></a>拉取远程仓库中指定分支</h2><pre class=" language-shell"><code class="language-shell">git fetch git@gitee.com:zhoushugang/hmmm-frontend-100-01.git develop:develop</code></pre>
-<h2 id="跟踪分支-⭐⭐⭐"><a href="#跟踪分支-⭐⭐⭐" class="headerlink" title="跟踪分支(⭐⭐⭐)"></a>跟踪分支(⭐⭐⭐)</h2><p>跟踪分支指的是：从远程仓库中，把远程分支下载到本地仓库中。需要运行的命令如下：</p>
-<pre class=" language-shell"><code class="language-shell"># 示例
-git checkout pay
-
-# 从远程仓库中，把对应的远程分支下载到本地仓库，并把下载的本地分支进行重命名
-git checkout -b 本地分支名称 远程仓库名称/远程分支名称
-
-# 示例
-git checkout -b payment origin/pay</code></pre>
-<h2 id="拉取远程分支的最新的代码"><a href="#拉取远程分支的最新的代码" class="headerlink" title="拉取远程分支的最新的代码"></a>拉取远程分支的最新的代码</h2><p>可以使用如下的命令，把远程分支最新的代码下载到本地对应的分支中:</p>
-<pre class=" language-shell"><code class="language-shell"># 从远程仓库，拉取当前分支最新的代码，保持当前分支的代码和远程分支代码一致
-git pull</code></pre>
-<h2 id="删除远程分支"><a href="#删除远程分支" class="headerlink" title="删除远程分支"></a>删除远程分支</h2><p>可以使用如下的命令，删除远程仓库中指定的分支：</p>
-<pre class=" language-shell"><code class="language-shell"># 删除远程仓库中，制定名称的远程分支
-git push 远程仓库名称 --delete 远程分支名称
-
-# 示例
-git push origin --delete pay</code></pre>
+                <h5 id="利用-Vue-中-keep-alive，快速实现页面缓存"><a href="#利用-Vue-中-keep-alive，快速实现页面缓存" class="headerlink" title="利用 Vue 中 keep-alive，快速实现页面缓存"></a>利用 Vue 中 keep-alive，快速实现页面缓存</h5><p>Vue 中 watch 无法直接监听数组里面对象键所对应值的变化 暂不考虑 deep true</p>
+<pre class=" language-javascript"><code class="language-javascript">Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span>item<span class="token punctuation">,</span> <span class="token string">'signalLevel'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  enumerable<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  configurable<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token keyword">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 每次获取对象的这个属性的时候，就会被这个get方法给劫持到</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'get执行了'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment" spellcheck="true">// 每次设置这个对象的属性的时候，就会被set方法劫持到</span>
+  <span class="token comment" spellcheck="true">// 设置的值也会劫持到</span>
+  <span class="token keyword">set</span><span class="token punctuation">(</span>newValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'set方法执行了'</span><span class="token punctuation">)</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>newValue<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre>
 
             </div>
             <hr/>
@@ -628,7 +544,7 @@ git push origin --delete pay</code></pre>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://a-xionglijun.github.io/2020/12/02/git-02/">https://a-xionglijun.github.io/2020/12/02/git-02/</a>
+                    <a href="https://a-xionglijun.github.io/2020/12/28/jian-ting-shu-zu-dui-xiang-bian-hua/">https://a-xionglijun.github.io/2020/12/28/jian-ting-shu-zu-dui-xiang-bian-hua/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -666,8 +582,8 @@ git push origin --delete pay</code></pre>
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/git/">
-                                    <span class="chip bg-color">git</span>
+                                <a href="/tags/Proxy/">
+                                    <span class="chip bg-color">Proxy</span>
                                 </a>
                             
                         </div>
@@ -838,7 +754,7 @@ git push origin --delete pay</code></pre>
         repo: 'blog_comments',
         owner: 'A-XiongLiJun',
         admin: "A-XiongLiJun",
-        id: '2020-12-02T21-01-38',
+        id: '2020-12-28T20-17-36',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -859,46 +775,49 @@ git push origin --delete pay</code></pre>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/12/03/settings-sync/">
+                <a href="/2020/12/28/jian-ting-shu-zu-dui-xiang-bian-hua/">
                     <div class="card-image">
                         
                         
-                        <img src="https://a-xionglijun.github.io/medias/featureimages/7.jpg" class="responsive-img" alt="vscode 同步">
+                        <img src="https://a-xionglijun.github.io/medias/featureimages/11.jpg" class="responsive-img" alt="监听数组变化">
                         
-                        <span class="card-title">vscode 同步</span>
+                        <span class="card-title">监听数组变化</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            备份配置 Settings Sync首先下载安装 Settings Sync在当前界面按 alt+shift+u点击用 GitHub 登陆—LOGIN WITH GITHUB登陆成功后返回 vscode选择 Github Gist，会自动检
+                            利用 Vue 中 keep-alive，快速实现页面缓存Vue 中 watch 无法直接监听数组里面对象键所对应值的变化 暂不考虑 deep true
+Object.defineProperty(item, 'signalLevel', {
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-03
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-28
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/vscode/" class="post-category">
-                                    vscode
+                            <a href="/categories/vue/" class="post-category">
+                                    vue
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%85%8D%E7%BD%AE/">
-                        <span class="chip bg-color">配置</span>
+                    <a href="/tags/Proxy/">
+                        <span class="chip bg-color">Proxy</span>
                     </a>
                     
                 </div>
@@ -912,32 +831,40 @@ git push origin --delete pay</code></pre>
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/12/02/git-01/">
+                <a href="/2020/12/22/uni-shop/">
                     <div class="card-image">
                         
                         
-                        <img src="https://a-xionglijun.github.io/medias/featureimages/12.jpg" class="responsive-img" alt="git-01">
+                        <img src="https://a-xionglijun.github.io/medias/featureimages/5.jpg" class="responsive-img" alt="uni-shop">
                         
-                        <span class="card-title">git-01</span>
+                        <span class="card-title">uni-shop</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Git 基础概念什么是 GitGit 是一个开源的分布式版本控制系统，是目前世界上最先进、最流行的版本控制系统。可以快速高效地处理从很小到非常大的项目版本管理。
-特点：项目越大越复杂，协同开发者越多，越能体现出 Git 的高性能和高可用性！
+                            HeadlineTIP基于 uniapp 开发的微信小程序商城项目
+tabBar 相关的页面首页
+分类
+购物车
+
+
+我的
+
+
+搜索![](https://a-xionglijun.github.io/medias/image/下载 (1).
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-22
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/" class="post-category">
-                                    安装配置
+                            <a href="/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" class="post-category">
+                                    小程序
                                 </a>
                             
                             
@@ -947,8 +874,8 @@ git push origin --delete pay</code></pre>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/git/">
-                        <span class="chip bg-color">git</span>
+                    <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
+                        <span class="chip bg-color">小程序</span>
                     </a>
                     
                 </div>

@@ -6,7 +6,7 @@
   <link href="https://a-xionglijun.github.io/atom.xml" rel="self"/>
   
   <link href="https://a-xionglijun.github.io/"/>
-  <updated>2020-12-22T14:18:51.889Z</updated>
+  <updated>2020-12-28T12:21:05.181Z</updated>
   <id>https://a-xionglijun.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>监听数组变化</title>
+    <link href="https://a-xionglijun.github.io/2020/12/28/jian-ting-shu-zu-dui-xiang-bian-hua/"/>
+    <id>https://a-xionglijun.github.io/2020/12/28/jian-ting-shu-zu-dui-xiang-bian-hua/</id>
+    <published>2020-12-28T12:17:36.284Z</published>
+    <updated>2020-12-28T12:21:05.181Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;利用-Vue-中-keep-alive，快速实现页面缓存&quot;&gt;&lt;a href=&quot;#利用-Vue-中-keep-alive，快速实现页面缓存&quot; class=&quot;headerlink&quot; title=&quot;利用 Vue 中</summary>
+        
+      
+    
+    
+    
+    <category term="vue" scheme="https://a-xionglijun.github.io/categories/vue/"/>
+    
+    
+    <category term="Proxy" scheme="https://a-xionglijun.github.io/tags/Proxy/"/>
+    
+  </entry>
+  
+  <entry>
     <title>uni-shop</title>
     <link href="https://a-xionglijun.github.io/2020/12/22/uni-shop/"/>
     <id>https://a-xionglijun.github.io/2020/12/22/uni-shop/</id>
     <published>2020-12-22T12:26:42.443Z</published>
-    <updated>2020-12-22T14:18:51.889Z</updated>
+    <updated>2020-12-28T12:17:20.980Z</updated>
     
     
       

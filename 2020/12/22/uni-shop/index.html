@@ -315,7 +315,7 @@ tabBar 相关的页面首页
 <script src="https://a-xionglijun.github.io/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '';
+        let pwd = '95d4362bd3cd4315d0bbe38dfa5d7fb8f0aed5f1a31d98d510907279194e3000';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -482,7 +482,7 @@ tabBar 相关的页面首页
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-12-22
+                    2020-12-28
                 </div>
                 
 
@@ -1056,10 +1056,10 @@ navClickHandler(item) {
 </li>
 </ol>
 <h4 id="3-4-4-点击楼层图片跳转到商品列表页"><a href="#3-4-4-点击楼层图片跳转到商品列表页" class="headerlink" title="3.4.4 点击楼层图片跳转到商品列表页"></a>3.4.4 点击楼层图片跳转到商品列表页</h4><ol>
-<li><p>在&nbsp;<code>subpkg</code>&nbsp;分包中，新建&nbsp;<code>goods_list</code>&nbsp;页面 </p>
+<li><p>在 &nbsp;<code>subpkg</code>&nbsp; 分包中，新建 &nbsp;<code>goods_list</code>&nbsp; 页面</p>
 <p><img src="https://a-xionglijun.github.io/medias/image/2/2-3.de0b01ae.png"></p>
 </li>
-<li><p>楼层数据请求成功之后，通过双层&nbsp;<code>forEach</code>&nbsp;循环，处理 URL 地址： </p>
+<li><p>楼层数据请求成功之后，通过双层 &nbsp;<code>forEach</code>&nbsp; 循环，处理 URL 地址：</p>
 <pre><code>// 获取楼层列表数据
 async getFloorList() {
   const { data: res } = await uni.$http.get('/api/public/v1/home/floordata')
@@ -1075,7 +1075,7 @@ async getFloorList() {
   this.floorList = res.message
 }</code></pre>
 </li>
-<li><p>把图片外层的&nbsp;<code>view</code>&nbsp;组件，改造为&nbsp;<code>navigator</code>&nbsp;组件，并动态绑定&nbsp;<code>url 属性</code>&nbsp;的值： </p>
+<li><p>把图片外层的 &nbsp;<code>view</code>&nbsp; 组件，改造为 &nbsp;<code>navigator</code>&nbsp; 组件，并动态绑定 &nbsp;<code>url 属性</code>&nbsp; 的值：</p>
 <pre class=" language-js"><code class="language-js"><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> 楼层图片区域 <span class="token operator">--</span><span class="token operator">></span>
 <span class="token operator">&lt;</span>view <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"floor-img-box"</span><span class="token operator">></span>
   <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> 左侧大图片的盒子 <span class="token operator">--</span><span class="token operator">></span>
@@ -1363,57 +1363,47 @@ git merge home</code></pre>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/12/22/uni-shop/">
+                <a href="/2020/12/28/jian-ting-shu-zu-dui-xiang-bian-hua/">
                     <div class="card-image">
                         
                         
-                        <img src="https://a-xionglijun.github.io/medias/featureimages/5.jpg" class="responsive-img" alt="uni-shop">
+                        <img src="https://a-xionglijun.github.io/medias/featureimages/11.jpg" class="responsive-img" alt="监听数组变化">
                         
-                        <span class="card-title">uni-shop</span>
+                        <span class="card-title">监听数组变化</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            HeadlineTIP基于 uniapp 开发的微信小程序商城项目
-tabBar 相关的页面首页
-分类
-购物车
-
-
-我的
-
-
-搜索![](https://a-xionglijun.github.io/medias/image/下载 (1).
+                            利用 Vue 中 keep-alive，快速实现页面缓存Vue 中 watch 无法直接监听数组里面对象键所对应值的变化 暂不考虑 deep true
+Object.defineProperty(item, 'signalLevel', {
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-22
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-28
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" class="post-category">
-                                    小程序
+                            <a href="/categories/vue/" class="post-category">
+                                    vue
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
-                        <span class="chip bg-color">小程序</span>
+                    <a href="/tags/Proxy/">
+                        <span class="chip bg-color">Proxy</span>
                     </a>
                     
                 </div>
@@ -1656,7 +1646,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
       <!-- |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a> -->
       <br />
        &nbsp;<i class="fas fa-chart-area"></i
-      >&nbsp;站点总字数:&nbsp;<span class="white-color">19.4k</span>&nbsp;字      
+      >&nbsp;站点总字数:&nbsp;<span class="white-color">19.6k</span>&nbsp;字      
       <span id="busuanzi_container_site_pv">
         |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span
           id="busuanzi_value_site_pv"
