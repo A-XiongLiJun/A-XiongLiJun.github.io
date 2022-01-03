@@ -1,0 +1,1862 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="uni-shop, 皖熊的博客">
+    <meta name="description" content="HeadlineTIP基于 uniapp 开发的微信小程序商城项目
+tabBar 相关的页面首页
+分类
+购物车
+
+
+我的
+
+
+搜索![](https://a-xionglijun.github.io/medias/image/下载 (1).">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>uni-shop | 皖熊的博客</title>
+    <link rel="icon" type="image/png" href="https://a-xionglijun.github.io/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="https://a-xionglijun.github.io/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://a-xionglijun.github.io/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://a-xionglijun.github.io/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://a-xionglijun.github.io/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://a-xionglijun.github.io/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="https://a-xionglijun.github.io/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="https://a-xionglijun.github.io/css/my.css">
+    
+    <script src="https://a-xionglijun.github.io/libs/jquery/jquery.min.js"></script>
+    
+<meta name="generator" content="Hexo 5.2.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="皖熊的博客" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper head-container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="https://a-xionglijun.github.io/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">皖熊的博客</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="https://a-xionglijun.github.io/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">皖熊的博客</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://a-xionglijun.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://a-xionglijun.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="https://a-xionglijun.github.io/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '95d4362bd3cd4315d0bbe38dfa5d7fb8f0aed5f1a31d98d510907279194e3000';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://a-xionglijun.github.io/medias/featureimages/5.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">uni-shop</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="https://a-xionglijun.github.io/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
+                                <span class="chip bg-color">小程序</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" class="post-category">
+                                小程序
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-12-22
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2020-12-28
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    3.9k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    17 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="Headline"><a href="#Headline" class="headerlink" title="Headline"></a>Headline</h2><p>TIP<br>基于 uniapp 开发的微信小程序商城项目</p>
+<h3 id="tabBar-相关的页面"><a href="#tabBar-相关的页面" class="headerlink" title="tabBar 相关的页面"></a>tabBar 相关的页面</h3><h3 id="首页"><a href="#首页" class="headerlink" title="首页"></a>首页</h3><p><img src="https://a-xionglijun.github.io/medias/image/0-1.f74c4d08.png"></p>
+<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p><img src="https://a-xionglijun.github.io/medias/image/0-2.b5fef657.png"></p>
+<h3 id="购物车"><a href="#购物车" class="headerlink" title="购物车"></a>购物车</h3><p><img src="https://a-xionglijun.github.io/medias/image/0-3.9feb6833.png"></p>
+<p><img src="https://a-xionglijun.github.io/medias/image/0-4.2f3b901d.png"></p>
+<p><img src="https://a-xionglijun.github.io/medias/image/0-5.b98d4cbd.png"></p>
+<h3 id="我的"><a href="#我的" class="headerlink" title="我的"></a>我的</h3><p><img src="https://a-xionglijun.github.io/medias/image/%E4%B8%8B%E8%BD%BD.png"></p>
+<p><img src="https://a-xionglijun.github.io/medias/image/0-7.73a762ca.png"></p>
+<p><img src="https://a-xionglijun.github.io/medias/image/0-8.5fa0379f.png"></p>
+<h5 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h5><p>![](<a href="https://a-xionglijun.github.io/medias/image/%E4%B8%8B%E8%BD%BD">https://a-xionglijun.github.io/medias/image/下载</a> (1).png)</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/0-10.a47a93b5.png"></p>
+<h5 id="商品列表"><a href="#商品列表" class="headerlink" title="商品列表"></a>商品列表</h5><p><img src="https://a-xionglijun.github.io/medias/image/0-14.7e51b66a.png"></p>
+<h5 id="商品详情"><a href="#商品详情" class="headerlink" title="商品详情"></a>商品详情</h5><p><img src="https://a-xionglijun.github.io/medias/image/0-11.7d8b4a84.png"></p>
+<p><img src="https://a-xionglijun.github.io/medias/image/0-12.b0e03cee.png"></p>
+<p><img src="https://a-xionglijun.github.io/medias/image/0-13.79de3e1d.png"></p>
+<h5 id="微信支付"><a href="#微信支付" class="headerlink" title="微信支付"></a>微信支付</h5><p><img src="https://a-xionglijun.github.io/medias/image/0-15.c23c7a61.png"></p>
+<h2 id="1-起步"><a href="#1-起步" class="headerlink" title="1.起步"></a>1.起步</h2><h3 id="1-1-uni-app-简介"><a href="#1-1-uni-app-简介" class="headerlink" title="1.1 uni-app 简介"></a>1.1 uni-app 简介</h3><p>uni-app 是一个使用 Vue.js 开发所有前端应用的框架。开发者编写一套代码，可发布到 iOS、Android、H5、以及各种小程序（微信/支付宝/百度/头条/QQ/钉钉/淘宝）、快应用等多个平台。</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-7.43264ae4.png"></p>
+<blockquote>
+<p>详细的 uni-app 官方文档，请翻阅 <a target="_blank" rel="noopener" href="https://uniapp.dcloud.net.cn/">https://uniapp.dcloud.net.cn/</a></p>
+</blockquote>
+<h3 id="1-2-开发工具"><a href="#1-2-开发工具" class="headerlink" title="1.2 开发工具"></a>1.2 开发工具</h3><p>uni-app 官方推荐使用 <strong>HBuilderX</strong> 来开发 uni-app 类型的项目。主要好处：</p>
+<ul>
+<li>模板丰富</li>
+<li>完善的智能提示</li>
+<li>一键运行</li>
+</ul>
+<blockquote>
+<p>当然，你依然可以根据自己的喜好，选择使用 VS Code、Sublime、<del>记事本</del>… 等自己喜欢的编辑器！</p>
+</blockquote>
+<h4 id="1-2-1-下载-HBuilderX"><a href="#1-2-1-下载-HBuilderX" class="headerlink" title="1.2.1 下载 HBuilderX"></a>1.2.1 下载 HBuilderX</h4><ol>
+<li>访问 HBuilderX 的官网首页 <a target="_blank" rel="noopener" href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a></li>
+<li>点击首页的 <code>DOWNLOAD</code> 按钮</li>
+<li>选择下载 <code>正式版</code> -&gt; <code>App 开发版</code></li>
+</ol>
+<h4 id="1-2-2-安装-HBuilderX"><a href="#1-2-2-安装-HBuilderX" class="headerlink" title="1.2.2 安装 HBuilderX"></a>1.2.2 安装 HBuilderX</h4><ol>
+<li>将下载的 <code>zip包</code> 进行解压缩</li>
+<li>将解压之后的文件夹，存放到<strong>纯英文</strong>的目录中（且不能包含括号等特殊字符）</li>
+<li>双击 <code>HBuilderX.exe</code> 即可启动 HBuilderX</li>
+</ol>
+<h4 id="1-2-3-安装-scss-sass-编译"><a href="#1-2-3-安装-scss-sass-编译" class="headerlink" title="1.2.3 安装 scss/sass 编译"></a>1.2.3 安装 scss/sass 编译</h4><p>为了方便编写样式（例如：<code>&lt;style lang="scss"&gt;&lt;/style&gt;</code>），建议安装 <code>scss/sass 编译</code> 插件。插件下载地址：</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://ext.dcloud.net.cn/plugin?name=compile-node-sass">https://ext.dcloud.net.cn/plugin?name=compile-node-sass</a></p>
+</blockquote>
+<p>进入插件下载页面之后，点击右上角的 <code>使用 HBuilderX 导入插件</code> 按钮进行自动安装，截图如下：</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-1.74fed64c.png"></p>
+<h4 id="1-2-4-快捷键方案切换"><a href="#1-2-4-快捷键方案切换" class="headerlink" title="1.2.4 快捷键方案切换"></a>1.2.4 快捷键方案切换</h4><p>操作步骤：工具 -&gt; 预设快捷键方案切换 -&gt; VS Code</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-2.1c0c98c6.png"></p>
+<h4 id="1-2-5-修改编辑器的基本设置"><a href="#1-2-5-修改编辑器的基本设置" class="headerlink" title="1.2.5 修改编辑器的基本设置"></a>1.2.5 修改编辑器的基本设置</h4><p>操作步骤：工具 -&gt; 设置 -&gt; 打开 Settings.json 按需进行配置</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-3.b48ee161.png"></p>
+<p><strong>源码视图</strong>下可用的参考配置：</p>
+<pre><code>{
+  "editor.colorScheme": "Default",
+  "editor.fontSize": 12,
+  "editor.fontFamily": "Consolas",
+  "editor.fontFmyCHS": "微软雅黑 Light",
+  "editor.insertSpaces": true,
+  "editor.lineHeight": "1.5",
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "editor.onlyHighlightWord": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": true,
+  "explorer.iconTheme": "vs-seti",
+  "editor.codeassist.px2rem.enabel": false,
+  "editor.codeassist.px2upx.enabel": false
+}</code></pre>
+<blockquote>
+<p>Tips：可以使用 <strong>Ctrl + 鼠标滚轮</strong> 缩放编辑器</p>
+</blockquote>
+<h3 id="1-3-新建-uni-app-项目"><a href="#1-3-新建-uni-app-项目" class="headerlink" title="1.3 新建 uni-app 项目"></a>1.3 新建 uni-app 项目</h3><ol>
+<li><p>文件 -&gt; 新建 -&gt; 项目</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-4.b7efec14.png"></p>
+</li>
+<li><p>填写项目基本信息</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-5.585d746d.png"></p>
+</li>
+<li><p>项目创建成功</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-6.01c783f2.png"></p>
+</li>
+</ol>
+<h3 id="1-4-目录结构"><a href="#1-4-目录结构" class="headerlink" title="1.4 目录结构"></a>1.4 目录结构</h3><p>一个 uni-app 项目，默认包含如下目录及文件：</p>
+<pre><code>┌─components            uni-app组件目录
+│  └─comp-a.vue         可复用的a组件
+├─pages                 业务页面文件存放的目录
+│  ├─index
+│  │  └─index.vue       index页面
+│  └─list
+│     └─list.vue        list页面
+├─static                存放应用引用静态资源（如图片、视频等）的目录，注意：静态资源只能存放于此
+├─main.js               Vue初始化入口文件
+├─App.vue               应用配置，用来配置小程序的全局样式、生命周期函数等
+├─manifest.json         配置应用名称、appid、logo、版本等打包信息
+└─pages.json            配置页面路径、页面窗口样式、tabBar、navigationBar 等页面类信息</code></pre>
+<h3 id="1-5-把项目运行到微信开发者工具"><a href="#1-5-把项目运行到微信开发者工具" class="headerlink" title="1.5 把项目运行到微信开发者工具"></a>1.5 把项目运行到微信开发者工具</h3><ol>
+<li><p>填写自己的微信小程序的 AppID：</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-8.4c14eb68.png"></p>
+</li>
+<li><p>在 HBuilderX 中，配置“微信开发者工具”的<strong>安装路径</strong>：</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-9.deca7c09.png"></p>
+</li>
+<li><p>在微信开发者工具中，通过 &nbsp;<code>设置 -&gt; 安全设置</code>&nbsp; 面板，开启“微信开发者工具”的<strong>服务端口</strong>：</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-10.png"></p>
+</li>
+<li><p>在 HBuilderX 中，点击菜单栏中的 &nbsp;<code>运行 -&gt; 运行到小程序模拟器 -&gt; 微信开发者工具</code>，将当前 uni-app 项目编译之后，自动运行到微信开发者工具中，从而方便查看项目效果与调试：</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-11.2637002b.png"></p>
+</li>
+<li><p>初次运行成功之后的项目效果：</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/1/1-12.1b33864e.png"></p>
+</li>
+</ol>
+<h3 id="1-6-使用-Git-管理项目"><a href="#1-6-使用-Git-管理项目" class="headerlink" title="1.6 使用 Git 管理项目"></a>1.6 使用 Git 管理项目</h3><h4 id="1-6-1-本地管理"><a href="#1-6-1-本地管理" class="headerlink" title="1.6.1 本地管理"></a>1.6.1 本地管理</h4><ol>
+<li>在项目根目录中新建 <code>.gitignore</code> 忽略文件，并配置如下：</li>
+</ol>
+<pre><code># 忽略 node_modules 目录
+/node_modules
+/unpackage/dist</code></pre>
+<blockquote>
+<p>注意：由于我们忽略了 unpackage 目录中<strong>仅有的</strong> dist 目录，因此默认情况下， unpackage 目录不会被 Git 追踪</p>
+</blockquote>
+<blockquote>
+<p>此时，为了让 Git 能够正常追踪 unpackage 目录，按照惯例，我们可以在 unpackage 目录下创建一个叫做 <code>.gitkeep</code> 的文件进行占位</p>
+</blockquote>
+<ol>
+<li>打开终端，切换到项目根目录中，运行如下的命令，初始化本地 Git 仓库：</li>
+</ol>
+<pre><code>git init</code></pre>
+<ol>
+<li>将所有文件都加入到暂存区：</li>
+</ol>
+<pre><code>git add .</code></pre>
+<ol>
+<li>本地提交更新：</li>
+</ol>
+<pre><code>git commit -m "init project"</code></pre>
+<h4 id="1-6-2-把项目托管到码云"><a href="#1-6-2-把项目托管到码云" class="headerlink" title="1.6.2 把项目托管到码云"></a>1.6.2 把项目托管到码云</h4><ol>
+<li>注册并激活码云账号（ 注册页面地址：<a target="_blank" rel="noopener" href="https://gitee.com/signup">https://gitee.com/signup</a> ）</li>
+<li>生成并配置 SSH 公钥</li>
+<li>创建空白的码云仓库</li>
+<li>把本地项目上传到码云对应的空白仓库中</li>
+</ol>
+<h2 id="2-tabBar"><a href="#2-tabBar" class="headerlink" title="2.tabBar"></a>2.tabBar</h2><h3 id="2-0-创建-tabBar-分支"><a href="#2-0-创建-tabBar-分支" class="headerlink" title="2.0 创建 tabBar 分支"></a>2.0 创建 tabBar 分支</h3><p>运行如下的命令，基于 master 分支在本地创建 tabBar 子分支，用来开发和 tabBar 相关的功能：</p>
+<pre><code>git checkout -b tabbar</code></pre>
+<h3 id="2-1-创建-tabBar-页面"><a href="#2-1-创建-tabBar-页面" class="headerlink" title="2.1 创建 tabBar 页面"></a>2.1 创建 tabBar 页面</h3><p>在 <code>pages</code> 目录中，创建首页(home)、分类(cate)、购物车(cart)、我的(my) 这 4 个 tabBar 页面。在 HBuilderX 中，可以通过如下的两个步骤，快速新建页面：</p>
+<ol>
+<li><p>在 <code>pages</code> 目录上鼠标右键，选择<strong>新建页面</strong></p>
+</li>
+<li><p>在弹出的窗口中，填写<strong>页面的名称</strong>、<strong>勾选 scss 模板</strong>之后，点击创建按钮。截图如下：</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/2/2-1.a57d1b5c.png"></p>
+</li>
+</ol>
+<h3 id="2-2-配置-tabBar-效果"><a href="#2-2-配置-tabBar-效果" class="headerlink" title="2.2 配置 tabBar 效果"></a>2.2 配置 tabBar 效果</h3><ol>
+<li><p>将 <code>资料</code> 目录下的 <code>static 文件夹</code> 拷贝一份，替换掉项目根目录中的 <code>static 文件夹</code></p>
+</li>
+<li><p>修改项目根目录中的 <code>pages.json</code> 配置文件，新增 <code>tabBar</code> 的配置节点如下：</p>
+<pre><code>{
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "text": "分类",
+        "iconPath": "static/tab_icons/cate.png",
+        "selectedIconPath": "static/tab_icons/cate-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/tab_icons/cart.png",
+        "selectedIconPath": "static/tab_icons/cart-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  }
+}</code></pre>
+</li>
+</ol>
+<h3 id="2-3-删除默认的-index-首页"><a href="#2-3-删除默认的-index-首页" class="headerlink" title="2.3 删除默认的 index 首页"></a>2.3 删除默认的 index 首页</h3><ol>
+<li>在 HBuilderX 中，把 <code>pages</code> 目录下的 <code>index首页文件夹</code> 删除掉</li>
+<li>同时，把 <code>page.json</code> 中记录的 <code>index 首页</code> 路径删除掉</li>
+<li>为了防止小程序运行失败，在微信开发者工具中，手动删除 <code>pages</code> 目录下的 <code>index 首页文件夹</code></li>
+<li>同时，把 <code>components</code> 目录下的 <code>uni-link 组件文件夹</code> 删除掉</li>
+</ol>
+<h3 id="2-4-修改导航条的样式效果"><a href="#2-4-修改导航条的样式效果" class="headerlink" title="2.4 修改导航条的样式效果"></a>2.4 修改导航条的样式效果</h3><ol>
+<li><p>打开 <code>pages.json</code> 这个全局的配置文件</p>
+</li>
+<li><p>修改 <code>globalStyle</code> 节点如下：</p>
+<pre><code>{
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "黑马优购",
+    "navigationBarBackgroundColor": "#C00000",
+    "backgroundColor": "#FFFFFF"
+  }
+}</code></pre>
+</li>
+</ol>
+<h3 id="2-5-分支的提交与合并"><a href="#2-5-分支的提交与合并" class="headerlink" title="2.5 分支的提交与合并"></a>2.5 分支的提交与合并</h3><ol>
+<li>将本地的 tabbar 分支进行本地的 commit 提交：</li>
+</ol>
+<pre><code>git add .
+git commit -m "完成了 tabBar 的开发"</code></pre>
+<ol>
+<li>将本地的 tabbar 分支推送到远程仓库进行保存：</li>
+</ol>
+<pre><code>git push -u origin tabbar</code></pre>
+<ol>
+<li>将本地的 tabbar 分支合并到本地的 master 分支：</li>
+</ol>
+<pre><code>git checkout master
+git merge tabbar</code></pre>
+<ol>
+<li>删除本地的 tabbar 分支：</li>
+</ol>
+<pre><code>git branch -d tabbar</code></pre>
+<h2 id="3-首页"><a href="#3-首页" class="headerlink" title="3.首页"></a>3.首页</h2><h3 id="3-0-创建-home-分支"><a href="#3-0-创建-home-分支" class="headerlink" title="3.0 创建 home 分支"></a>3.0 创建 home 分支</h3><p>运行如下的命令，基于 master 分支在本地创建 home 子分支，用来开发和 home 首页相关的功能：</p>
+<pre><code>git checkout -b home</code></pre>
+<h3 id="3-1-配置网络请求"><a href="#3-1-配置网络请求" class="headerlink" title="3.1 配置网络请求"></a>3.1 配置网络请求</h3><p>由于平台的限制，小程序项目中<strong>不支持 axios</strong>，而且原生的 <code>wx.request()</code> API 功能较为简单，<strong>不支持拦截器</strong>等全局定制的功能。因此，建议在 uni-app 项目中使用 <code>@escook/request-miniprogram</code> 第三方包发起网络数据请求。</p>
+<blockquote>
+<p>请参考 <strong>@escook/request-miniprogram</strong> 的官方文档进行安装、配置、使用</p>
+</blockquote>
+<blockquote>
+<p>官方文档：<a target="_blank" rel="noopener" href="https://www.npmjs.com/package/@escook/request-miniprogram">https://www.npmjs.com/package/@escook/request-miniprogram</a></p>
+</blockquote>
+<p>最终，在项目的 <code>main.js</code> 入口文件中，通过如下的方式进行配置：</p>
+<pre><code>import { $http } from '@escook/request-miniprogram'
+
+uni.$http = $http
+// 配置请求根路径
+$http.baseUrl = 'https://www.uinav.com'
+
+// 请求开始之前做一些事情
+$http.beforeRequest = function (options) {
+  uni.showLoading({
+    title: '数据加载中...',
+  })
+}
+
+// 请求完成之后做一些事情
+$http.afterRequest = function () {
+  uni.hideLoading()
+}</code></pre>
+<h3 id="3-2-轮播图区域"><a href="#3-2-轮播图区域" class="headerlink" title="3.2 轮播图区域"></a>3.2 轮播图区域</h3><h4 id="3-2-1-请求轮播图的数据"><a href="#3-2-1-请求轮播图的数据" class="headerlink" title="3.2.1 请求轮播图的数据"></a>3.2.1 请求轮播图的数据</h4><p>实现步骤：</p>
+<ol>
+<li>在 data 中定义轮播图的数组</li>
+<li>在 onLoad 生命周期函数中调用获取轮播图数据的方法</li>
+<li>在 methods 中定义获取轮播图数据的方法</li>
+</ol>
+<p>示例代码：</p>
+<pre><code>export default {
+  data() {
+    return {
+      // 1. 轮播图的数据列表，默认为空数组
+      swiperList: [],
+    }
+  },
+  onLoad() {
+    // 2. 在小程序页面刚加载的时候，调用获取轮播图数据的方法
+    this.getSwiperList()
+  },
+  methods: {
+    // 3. 获取轮播图数据的方法
+    async getSwiperList() {
+      // 3.1 发起请求
+      const { data: res } = await uni.$http.get('/api/public/v1/home/swiperdata')
+      // 3.2 请求失败
+      if (res.meta.status !== 200) {
+        return uni.showToast({
+          title: '数据请求失败！',
+          duration: 1500,
+          icon: 'none',
+        })
+      }
+      // 3.3 请求成功，为 data 中的数据赋值
+      this.swiperList = res.message
+    },
+  },
+}</code></pre>
+<h4 id="3-2-2-渲染轮播图的-UI-结构"><a href="#3-2-2-渲染轮播图的-UI-结构" class="headerlink" title="3.2.2 渲染轮播图的 UI 结构"></a>3.2.2 渲染轮播图的 UI 结构</h4><ol>
+<li><p>渲染 UI 结构：</p>
+<pre><code>&lt;template&gt;
+  &lt;view&gt;
+    &lt;!-- 轮播图区域 --&gt;
+    &lt;swiper :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000" :circular="true"&gt;
+      &lt;!-- 循环渲染轮播图的 item 项 --&gt;
+      &lt;swiper-item v-for="(item, i) in swiperList" :key="i"&gt;
+        &lt;view class="swiper-item"&gt;
+          &lt;!-- 动态绑定图片的 src 属性 --&gt;
+          &lt;image :src="item.image_src"&gt;&lt;/image&gt;
+        &lt;/view&gt;
+      &lt;/swiper-item&gt;
+    &lt;/swiper&gt;
+  &lt;/view&gt;
+&lt;/template&gt;</code></pre>
+</li>
+<li><p>美化 UI 结构：</p>
+<pre><code>&lt;style lang="scss"&gt;
+swiper {
+ height: 330rpx;
+
+ .swiper-item,
+ image {
+   width: 100%;
+   height: 100%;
+ }
+}
+&lt;/style&gt;</code></pre>
+</li>
+</ol>
+<h4 id="3-2-3-配置小程序分包"><a href="#3-2-3-配置小程序分包" class="headerlink" title="3.2.3 配置小程序分包"></a>3.2.3 配置小程序分包</h4><blockquote>
+<p>分包可以减少小程序首次启动时的加载时间</p>
+</blockquote>
+<p>为此，我们在项目中，把 tabBar 相关的 4 个页面放到主包中，其它页面（例如：商品详情页、商品列表页）放到分包中。在 uni-app 项目中，配置分包的步骤如下：</p>
+<ol>
+<li><p>在项目根目录中，创建分包的根目录，命名为 <code>subpkg</code></p>
+</li>
+<li><p>在 <code>pages.json</code> 中，和 <code>pages</code> 节点平级的位置声明 <code>subPackages</code> 节点，用来定义分包相关的结构：</p>
+<pre><code>{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {}
+    },
+    {
+      "path": "pages/cate/cate",
+      "style": {}
+    },
+    {
+      "path": "pages/cart/cart",
+      "style": {}
+    },
+    {
+      "path": "pages/my/my",
+      "style": {}
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": []
+    }
+  ]
+}</code></pre>
+</li>
+<li><p>在 <code>subpkg</code> 目录上鼠标右键，点击 <code>新建页面</code> 选项，并填写页面的相关信息：</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/2/2-2.e5e761c8.png"></p>
+</li>
+</ol>
+<h4 id="3-2-4-点击轮播图跳转到商品详情页面"><a href="#3-2-4-点击轮播图跳转到商品详情页面" class="headerlink" title="3.2.4 点击轮播图跳转到商品详情页面"></a>3.2.4 点击轮播图跳转到商品详情页面</h4><p>将 <code>&lt;swiper-item&gt;&lt;/swiper-item&gt;</code> 节点内的 <code>view</code> 组件，改造为 <code>navigator</code> 导航组件，并动态绑定 <code>url 属性</code> 的值。</p>
+<ol>
+<li><p>改造之前的 UI 结构：</p>
+<pre><code>&lt;swiper-item v-for="(item, i) in swiperList" :key="i"&gt;
+  &lt;view class="swiper-item"&gt;
+    &lt;!-- 动态绑定图片的 src 属性 --&gt;
+    &lt;image :src="item.image_src"&gt;&lt;/image&gt;
+  &lt;/view&gt;
+&lt;/swiper-item&gt;</code></pre>
+</li>
+<li><p>改造之后的 UI 结构：</p>
+<pre><code>&lt;swiper-item v-for="(item, i) in swiperList" :key="i"&gt;
+    &lt;navigator class="swiper-item" :url="'/subpkg/goods_detail/goods_detail?goods_id=' + item.goods_id"&gt;
+      &lt;!-- 动态绑定图片的 src 属性 --&gt;
+      &lt;image :src="item.image_src"&gt;&lt;/image&gt;
+    &lt;/navigator&gt;
+&lt;/swiper-item&gt;</code></pre>
+</li>
+</ol>
+<h4 id="3-2-5-封装-uni-showMsg-方法"><a href="#3-2-5-封装-uni-showMsg-方法" class="headerlink" title="3.2.5 封装 uni.$showMsg() 方法"></a>3.2.5 封装 uni.$showMsg() 方法</h4><p>当数据请求失败之后，经常需要调用 <code>uni.showToast({ /* 配置对象 */ })</code> 方法来提示用户。此时，可以在全局封装一个 <code>uni.$showMsg()</code> 方法，来简化 <code>uni.showToast()</code> 方法的调用。具体的改造步骤如下：</p>
+<ol>
+<li><p>在 <code>main.js</code> 中，为 <code>uni</code> 对象挂载自定义的 <code>$showMsg()</code> 方法：</p>
+<pre><code>// 封装的展示消息提示的方法
+uni.$showMsg = function (title = '数据加载失败！', duration = 1500) {
+  uni.showToast({
+    title,
+    duration,
+    icon: 'none',
+  })
+}</code></pre>
+</li>
+<li><p>今后，在需要提示消息的时候，直接调用 <code>uni.$showMsg()</code> 方法即可：</p>
+<pre><code>async getSwiperList() {
+   const { data: res } = await uni.$http.get('/api/public/v1/home/swiperdata')
+   if (res.meta.status !== 200) return uni.$showMsg()
+   this.swiperList = res.message
+}</code></pre>
+</li>
+</ol>
+<h3 id="3-3-分类导航区域"><a href="#3-3-分类导航区域" class="headerlink" title="3.3 分类导航区域"></a>3.3 分类导航区域</h3><h4 id="3-3-1-获取分类导航的数据"><a href="#3-3-1-获取分类导航的数据" class="headerlink" title="3.3.1 获取分类导航的数据"></a>3.3.1 获取分类导航的数据</h4><p>实现思路：</p>
+<ol>
+<li>定义 data 数据</li>
+<li>在 onLoad 中调用获取数据的方法</li>
+<li>在 methods 中定义获取数据的方法</li>
+</ol>
+<p>示例代码如下：</p>
+<pre><code>export default {
+  data() {
+    return {
+      // 1. 分类导航的数据列表
+      navList: [],
+    }
+  },
+  onLoad() {
+    // 2. 在 onLoad 中调用获取数据的方法
+    this.getNavList()
+  },
+  methods: {
+    // 3. 在 methods 中定义获取数据的方法
+    async getNavList() {
+      const { data: res } = await uni.$http.get('/api/public/v1/home/catitems')
+      if (res.meta.status !== 200) return uni.$showMsg()
+      this.navList = res.message
+    },
+  },
+}</code></pre>
+<h4 id="3-3-2-渲染分类导航的-UI-结构"><a href="#3-3-2-渲染分类导航的-UI-结构" class="headerlink" title="3.3.2 渲染分类导航的 UI 结构"></a>3.3.2 渲染分类导航的 UI 结构</h4><ol>
+<li><p>定义如下的 UI 结构：</p>
+<pre><code>&lt;!-- 分类导航区域 --&gt;
+&lt;view class="nav-list"&gt;
+   &lt;view class="nav-item" v-for="(item, i) in navList" :key="i"&gt;
+     &lt;image :src="item.image_src" class="nav-img"&gt;&lt;/image&gt;
+   &lt;/view&gt;
+&lt;/view&gt;</code></pre>
+</li>
+<li><p>通过如下的样式美化页面结构：</p>
+<pre><code>.nav-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+
+  .nav-img {
+    width: 128rpx;
+    height: 140rpx;
+  }
+}</code></pre>
+</li>
+</ol>
+<h4 id="3-3-2-点击第一项，切换到分类页面"><a href="#3-3-2-点击第一项，切换到分类页面" class="headerlink" title="3.3.2 点击第一项，切换到分类页面"></a>3.3.2 点击第一项，切换到分类页面</h4><ol>
+<li><p>为 <code>nav-item</code> 绑定点击事件处理函数：</p>
+<pre><code>&lt;!-- 分类导航区域 --&gt;
+&lt;view class="nav-list"&gt;
+  &lt;view class="nav-item" v-for="(item, i) in navList" :key="i" @click="navClickHandler(item)"&gt;
+    &lt;image :src="item.image_src" class="nav-img"&gt;&lt;/image&gt;
+  &lt;/view&gt;
+&lt;/view&gt;</code></pre>
+</li>
+<li><p>定义 <code>navClickHandler</code> 事件处理函数：</p>
+<pre><code>// nav-item 项被点击时候的事件处理函数
+navClickHandler(item) {
+  // 判断点击的是哪个 nav
+  if (item.name === '分类') {
+    uni.switchTab({
+      url: '/pages/cate/cate'
+    })
+  }
+}</code></pre>
+</li>
+</ol>
+<h3 id="3-4-楼层区域"><a href="#3-4-楼层区域" class="headerlink" title="3.4 楼层区域"></a>3.4 楼层区域</h3><h4 id="3-4-1-获取楼层数据"><a href="#3-4-1-获取楼层数据" class="headerlink" title="3.4.1 获取楼层数据"></a>3.4.1 获取楼层数据</h4><p>实现思路：</p>
+<ol>
+<li>定义 data 数据</li>
+<li>在 onLoad 中调用获取数据的方法</li>
+<li>在 methods 中定义获取数据的方法</li>
+</ol>
+<p>示例代码如下：</p>
+<pre><code>export default {
+  data() {
+    return {
+      // 1. 楼层的数据列表
+      floorList: [],
+    }
+  },
+  onLoad() {
+    // 2. 在 onLoad 中调用获取楼层数据的方法
+    this.getFloorList()
+  },
+  methods: {
+    // 3. 定义获取楼层列表数据的方法
+    async getFloorList() {
+      const { data: res } = await uni.$http.get('/api/public/v1/home/floordata')
+      if (res.meta.status !== 200) return uni.$showMsg()
+      this.floorList = res.message
+    },
+  },
+}</code></pre>
+<h4 id="3-4-2-渲染楼层的标题"><a href="#3-4-2-渲染楼层的标题" class="headerlink" title="3.4.2 渲染楼层的标题"></a>3.4.2 渲染楼层的标题</h4><ol>
+<li><p>定义如下的 UI 结构：</p>
+<pre><code>&lt;!-- 楼层区域 --&gt;
+&lt;view class="floor-list"&gt;
+  &lt;!-- 楼层 item 项 --&gt;
+  &lt;view class="floor-item" v-for="(item, i) in floorList" :key="i"&gt;
+    &lt;!-- 楼层标题 --&gt;
+    &lt;image :src="item.floor_title.image_src" class="floor-title"&gt;&lt;/image&gt;
+  &lt;/view&gt;
+&lt;/view&gt;</code></pre>
+</li>
+<li><p>美化楼层标题的样式：</p>
+<pre><code>.floor-title {
+  height: 60rpx;
+  width: 100%;
+  display: flex;
+}</code></pre>
+</li>
+</ol>
+<h4 id="3-4-3-渲染楼层里的图片"><a href="#3-4-3-渲染楼层里的图片" class="headerlink" title="3.4.3 渲染楼层里的图片"></a>3.4.3 渲染楼层里的图片</h4><ol>
+<li><p>定义楼层图片区域的 UI 结构：</p>
+<pre><code>&lt;!-- 楼层图片区域 --&gt;
+&lt;view class="floor-img-box"&gt;
+  &lt;!-- 左侧大图片的盒子 --&gt;
+  &lt;view class="left-img-box"&gt;
+    &lt;image :src="item.product_list[0].image_src" :style="{width: item.product_list[0].image_width + 'rpx'}" mode="widthFix"&gt;&lt;/image&gt;
+  &lt;/view&gt;
+  &lt;!-- 右侧 4 个小图片的盒子 --&gt;
+  &lt;view class="right-img-box"&gt;
+    &lt;view class="right-img-item" v-for="(item2, i2) in item.product_list" :key="i2" v-if="i2 !== 0"&gt;
+      &lt;image :src="item2.image_src" mode="widthFix" :style="{width: item2.image_width + 'rpx'}"&gt;&lt;/image&gt;
+    &lt;/view&gt;
+  &lt;/view&gt;
+&lt;/view&gt;</code></pre>
+</li>
+<li><p>美化楼层图片区域的样式：</p>
+<pre><code>.right-img-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.floor-img-box {
+  display: flex;
+  padding-left: 10rpx;
+}</code></pre>
+</li>
+</ol>
+<h4 id="3-4-4-点击楼层图片跳转到商品列表页"><a href="#3-4-4-点击楼层图片跳转到商品列表页" class="headerlink" title="3.4.4 点击楼层图片跳转到商品列表页"></a>3.4.4 点击楼层图片跳转到商品列表页</h4><ol>
+<li><p>在 &nbsp;<code>subpkg</code>&nbsp; 分包中，新建 &nbsp;<code>goods_list</code>&nbsp; 页面</p>
+<p><img src="https://a-xionglijun.github.io/medias/image/2/2-3.de0b01ae.png"></p>
+</li>
+<li><p>楼层数据请求成功之后，通过双层 &nbsp;<code>forEach</code>&nbsp; 循环，处理 URL 地址：</p>
+<pre><code>// 获取楼层列表数据
+async getFloorList() {
+  const { data: res } = await uni.$http.get('/api/public/v1/home/floordata')
+  if (res.meta.status !== 200) return uni.$showMsg()
+
+  // 通过双层 forEach 循环，处理 URL 地址
+  res.message.forEach(floor =&gt; {
+    floor.product_list.forEach(prod =&gt; {
+      prod.url = '/subpkg/goods_list/goods_list?' + prod.navigator_url.split('?')[1]
+    })
+  })
+
+  this.floorList = res.message
+}</code></pre>
+</li>
+<li><p>把图片外层的 &nbsp;<code>view</code>&nbsp; 组件，改造为 &nbsp;<code>navigator</code>&nbsp; 组件，并动态绑定 &nbsp;<code>url 属性</code>&nbsp; 的值：</p>
+<pre class=" language-js"><code class="language-js"><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> 楼层图片区域 <span class="token operator">--</span><span class="token operator">></span>
+<span class="token operator">&lt;</span>view <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"floor-img-box"</span><span class="token operator">></span>
+  <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> 左侧大图片的盒子 <span class="token operator">--</span><span class="token operator">></span>
+  <span class="token operator">&lt;</span>navigator <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"left-img-box"</span> <span class="token punctuation">:</span>url<span class="token operator">=</span><span class="token string">"item.product_list[0].url"</span><span class="token operator">></span>
+    <span class="token operator">&lt;</span>image <span class="token punctuation">:</span>src<span class="token operator">=</span><span class="token string">"item.product_list[0].image_src"</span> <span class="token punctuation">:</span>style<span class="token operator">=</span><span class="token string">"{width: item.product_list[0].image_width + 'rpx'}"</span> mode<span class="token operator">=</span><span class="token string">"widthFix"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>image<span class="token operator">></span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>navigator<span class="token operator">></span>
+  <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> 右侧 <span class="token number">4</span> 个小图片的盒子 <span class="token operator">--</span><span class="token operator">></span>
+  <span class="token operator">&lt;</span>view <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"right-img-box"</span><span class="token operator">></span>
+    <span class="token operator">&lt;</span>navigator <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"right-img-item"</span> v<span class="token operator">-</span><span class="token keyword">for</span><span class="token operator">=</span><span class="token string">"(item2, i2) in item.product_list"</span> <span class="token punctuation">:</span>key<span class="token operator">=</span><span class="token string">"i2"</span> v<span class="token operator">-</span><span class="token keyword">if</span><span class="token operator">=</span><span class="token string">"i2 !== 0"</span> <span class="token punctuation">:</span>url<span class="token operator">=</span><span class="token string">"item2.url"</span><span class="token operator">></span>
+      <span class="token operator">&lt;</span>image <span class="token punctuation">:</span>src<span class="token operator">=</span><span class="token string">"item2.image_src"</span> mode<span class="token operator">=</span><span class="token string">"widthFix"</span> <span class="token punctuation">:</span>style<span class="token operator">=</span><span class="token string">"{width: item2.image_width + 'rpx'}"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>image<span class="token operator">></span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>navigator<span class="token operator">></span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">></span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">></span></code></pre>
+</li>
+</ol>
+<h3 id="3-5-分支的合并与提交"><a href="#3-5-分支的合并与提交" class="headerlink" title="3.5 分支的合并与提交"></a>3.5 分支的合并与提交</h3><ol>
+<li><p>将本地的 home 分支进行本地的 commit 提交：</p>
+<pre><code>git add .
+git commit -m "完成了 home 首页的开发"</code></pre>
+</li>
+<li><p>将本地的 home 分支推送到远程仓库进行保存：</p>
+<pre><code>git push -u origin home</code></pre>
+</li>
+<li><p>将本地的 home 分支合并到本地的 master 分支：</p>
+<pre><code>git checkout master
+git merge home</code></pre>
+</li>
+<li><p>删除本地的 home 分支：</p>
+<pre><code>git branch -d home</code></pre>
+</li>
+</ol>
+<h2 id="4-分类"><a href="#4-分类" class="headerlink" title="4.分类"></a>4.分类</h2><h2 id="5-搜索"><a href="#5-搜索" class="headerlink" title="5.搜索"></a>5.搜索</h2><h2 id="6-商品列表"><a href="#6-商品列表" class="headerlink" title="6.商品列表"></a>6.商品列表</h2><h2 id="7-商品详情"><a href="#7-商品详情" class="headerlink" title="7.商品详情"></a>7.商品详情</h2><h2 id="8-加入购物车"><a href="#8-加入购物车" class="headerlink" title="8.加入购物车"></a>8.加入购物车</h2><h2 id="9-购物车页面"><a href="#9-购物车页面" class="headerlink" title="9.购物车页面"></a>9.购物车页面</h2><h2 id="10-登录与支付"><a href="#10-登录与支付" class="headerlink" title="10.登录与支付"></a>10.登录与支付</h2><h2 id="11-发布"><a href="#11-发布" class="headerlink" title="11.发布"></a>11.发布</h2>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://a-xionglijun.github.io" rel="external nofollow noreferrer">皖熊</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://a-xionglijun.github.io/2021/12/22/uni-shop/">https://a-xionglijun.github.io/2021/12/22/uni-shop/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="https://a-xionglijun.github.io" target="_blank">皖熊</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
+                                    <span class="chip bg-color">小程序</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="https://a-xionglijun.github.io/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="https://a-xionglijun.github.io/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="https://a-xionglijun.github.io/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="https://a-xionglijun.github.io/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+            
+        </div>
+    </div>
+
+    
+        <link rel="stylesheet" href="https://a-xionglijun.github.io/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="https://a-xionglijun.github.io/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="https://a-xionglijun.github.io/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: 'f90346f2b3451d343d99',
+        clientSecret: '64cff5aaaeced01ca4ef4c1842ea8870ca4bc3cf',
+        repo: 'blog_comments',
+        owner: 'A-XiongLiJun',
+        admin: "A-XiongLiJun",
+        id: '2021-12-22T20-29-56',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2021/12/22/uniapp-shop/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://a-xionglijun.github.io/medias/featureimages/23.jpg" class="responsive-img" alt="uniapp">
+                        
+                        <span class="card-title">uniapp</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            起步
+访问 HBuilderX 的官网首页 https://www.dcloud.io/hbuilderx.html
+
+点击首页的 DOWNLOAD 按钮
+
+选择下载 正式版 -&gt; App 开发版
+
+
+为了方便编写样式（例如：），建议
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-22
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" class="post-category">
+                                    小程序
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E9%85%8D%E7%BD%AE/">
+                        <span class="chip bg-color">配置</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/12/22/torgb/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://a-xionglijun.github.io/medias/featureimages/19.jpg" class="responsive-img" alt="toRGB函数">
+                        
+                        <span class="card-title">toRGB函数</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            转换 CSS 中的颜色编码如：// alert(toRGB(‘#0000FF’)) // 输出 rgb(0, 0, 255)// alert(toRGB(‘invalid’)) // 输出 invalid// alert(toRGB(‘#G
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-22
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/JS/" class="post-category">
+                                    JS
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%A1%88%E4%BE%8B/">
+                        <span class="chip bg-color">案例</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 皖熊的博客<br />'
+            + '文章作者: 皖熊<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="https://a-xionglijun.github.io/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="https://a-xionglijun.github.io/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="https://a-xionglijun.github.io/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="https://a-xionglijun.github.io/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="https://a-xionglijun.github.io/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+    <footer class="page-footer bg-color">
+  <div
+    class="container row center-align"
+    style="margin-bottom: 15px !important;"
+  >
+    <div class="col s12 m8 l8 copy-right">
+      Copyright&nbsp;&copy;
+      <span id="year">2020</span>
+      <a href="https://a-xionglijun.github.io" target="_blank">皖熊</a>
+      <!-- |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a> -->
+      <!-- |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a> -->
+      <br />
+       &nbsp;<i class="fas fa-chart-area"></i
+      >&nbsp;站点总字数:&nbsp;<span class="white-color">19.6k</span>&nbsp;字      
+      <span id="busuanzi_container_site_pv">
+        |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span
+          id="busuanzi_value_site_pv"
+          class="white-color"
+        ></span
+        >&nbsp;次
+      </span>
+       
+      <span id="busuanzi_container_site_uv">
+        |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span
+          id="busuanzi_value_site_uv"
+          class="white-color"
+        ></span
+        >&nbsp;人
+      </span>
+      
+      <br />
+      
+      <span id="sitetime">载入运行时间...</span>
+      <script>
+        function siteTime() {
+          var seconds = 1000
+          var minutes = seconds * 60
+          var hours = minutes * 60
+          var days = hours * 24
+          var years = days * 365
+          var today = new Date()
+          var startYear = '2020'
+          var startMonth = '11'
+          var startDate = '15'
+          var startHour = '20'
+          var startMinute = '13'
+          var startSecond = '20'
+          var todayYear = today.getFullYear()
+          var todayMonth = today.getMonth() + 1
+          var todayDate = today.getDate()
+          var todayHour = today.getHours()
+          var todayMinute = today.getMinutes()
+          var todaySecond = today.getSeconds()
+          var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond)
+          var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
+          var diff = t2 - t1
+          var diffYears = Math.floor(diff / years)
+          var diffDays = Math.floor(diff / days - diffYears * 365)
+          var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours)
+          var diffMinutes = Math.floor(
+            (diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes
+          )
+            .toString()
+            .padStart(2, '0')
+          var diffSeconds = Math.floor(
+            (diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds
+          )
+            .toString()
+            .padStart(2, '0')
+          if (startYear == todayYear) {
+            document.getElementById('year').innerHTML = todayYear
+            document.getElementById('sitetime').innerHTML =
+              '本站已安全运行 ' +
+              diffDays +
+              ' 天 ' +
+              diffHours +
+              ' 小时 ' +
+              diffMinutes +
+              ' 分钟 ' +
+              diffSeconds +
+              ' 秒'
+          } else {
+            document.getElementById('year').innerHTML = startYear + ' - ' + todayYear
+            document.getElementById('sitetime').innerHTML =
+              '本站已安全运行 ' +
+              diffYears +
+              ' 年 ' +
+              diffDays +
+              ' 天 ' +
+              diffHours +
+              ' 小时 ' +
+              diffMinutes +
+              ' 分钟 ' +
+              diffSeconds +
+              ' 秒'
+          }
+        }
+        setInterval(siteTime, 1000)
+      </script>
+      
+      <br />
+      
+    </div>
+    <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/A-XiongLiJun" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:416326495@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=416326495" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 416326495" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+  </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="https://a-xionglijun.github.io/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("https://a-xionglijun.github.io/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="https://a-xionglijun.github.io/libs/materialize/materialize.min.js"></script>
+    <script src="https://a-xionglijun.github.io/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://a-xionglijun.github.io/libs/aos/aos.js"></script>
+    <script src="https://a-xionglijun.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://a-xionglijun.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="https://a-xionglijun.github.io/js/matery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="https://a-xionglijun.github.io/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="https://a-xionglijun.github.io/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="https://a-xionglijun.github.io/libs/background/canvas-nest.js"></script>
+    
+
+    
+
+    
+    
+    
+    <script src="https://a-xionglijun.github.io/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
