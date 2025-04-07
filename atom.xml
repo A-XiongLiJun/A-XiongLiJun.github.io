@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>皖熊的博客</title>
   
-  <subtitle>熊丽君</subtitle>
+  <subtitle>皖熊</subtitle>
   <link href="https://a-xionglijun.github.io/atom.xml" rel="self"/>
   
   <link href="https://a-xionglijun.github.io/"/>
-  <updated>2020-11-29T08:24:16.024Z</updated>
+  <updated>2025-04-07T05:16:56.524Z</updated>
   <id>https://a-xionglijun.github.io/</id>
   
   <author>
@@ -17,43 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>面试题</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/mian-shi-ti/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/mian-shi-ti/</id>
-    <published>2021-12-22T12:29:56.230Z</published>
-    <updated>2020-11-29T08:24:16.024Z</updated>
+    <title>个人笔记 -dome</title>
+    <link href="https://a-xionglijun.github.io/2025/04/07/ge-ren-bi-ji-dome/"/>
+    <id>https://a-xionglijun.github.io/2025/04/07/ge-ren-bi-ji-dome/</id>
+    <published>2025-04-07T05:16:56.524Z</published>
+    <updated>2025-04-07T05:16:56.524Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h5 id=&quot;Vue-组件中的-data-为什么是一个函数&quot;&gt;&lt;a href=&quot;#Vue-组件中的-data-为什么是一个函数&quot; class=&quot;headerlink&quot; title=&quot;Vue 组件中的 data 为什么是一个函数?&quot;&gt;&lt;/a&gt;Vue 组件中的 data</summary>
+    <summary type="html">&lt;pre class=&quot; language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;DOCTYPE</summary>
         
       
     
     
     
-    <category term="text" scheme="https://a-xionglijun.github.io/categories/text/"/>
+    <category term="皖熊" scheme="https://a-xionglijun.github.io/categories/%E7%9A%96%E7%86%8A/"/>
     
     
-    <category term="面试题" scheme="https://a-xionglijun.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <category term="笔记" scheme="https://a-xionglijun.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
-    <title>监听数组变化</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/jian-ting-shu-zu-dui-xiang-bian-hua/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/jian-ting-shu-zu-dui-xiang-bian-hua/</id>
-    <published>2021-12-22T12:29:56.228Z</published>
-    <updated>2020-12-28T12:21:05.181Z</updated>
+    <title>依赖注入</title>
+    <link href="https://a-xionglijun.github.io/2025/02/12/yi-lai-zhu-ru/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/yi-lai-zhu-ru/</id>
+    <published>2025-02-12T01:08:20.437Z</published>
+    <updated>2020-11-21T12:42:00.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h5 id=&quot;利用-Vue-中-keep-alive，快速实现页面缓存&quot;&gt;&lt;a href=&quot;#利用-Vue-中-keep-alive，快速实现页面缓存&quot; class=&quot;headerlink&quot; title=&quot;利用 Vue 中</summary>
+    <summary type="html">&lt;h3 id=&quot;依赖注入&quot;&gt;&lt;a href=&quot;#依赖注入&quot; class=&quot;headerlink&quot; title=&quot;依赖注入&quot;&gt;&lt;/a&gt;&lt;a</summary>
         
       
     
@@ -62,16 +62,16 @@
     <category term="vue" scheme="https://a-xionglijun.github.io/categories/vue/"/>
     
     
-    <category term="Proxy" scheme="https://a-xionglijun.github.io/tags/Proxy/"/>
+    <category term="provide 和 inject" scheme="https://a-xionglijun.github.io/tags/provide-%E5%92%8C-inject/"/>
     
   </entry>
   
   <entry>
     <title>循环定时器</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/xun-huan-ding-shi-qi/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/xun-huan-ding-shi-qi/</id>
-    <published>2021-12-22T12:29:56.227Z</published>
-    <updated>2020-11-29T08:29:37.276Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/xun-huan-ding-shi-qi/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/xun-huan-ding-shi-qi/</id>
+    <published>2025-02-12T01:08:20.209Z</published>
+    <updated>2020-11-29T08:29:38.000Z</updated>
     
     
       
@@ -93,11 +93,36 @@
   </entry>
   
   <entry>
+    <title>修改头像</title>
+    <link href="https://a-xionglijun.github.io/2025/02/12/xiu-gai-tou-xiang/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/xiu-gai-tou-xiang/</id>
+    <published>2025-02-12T01:08:20.072Z</published>
+    <updated>2020-12-03T07:56:30.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;修改头像&quot;&gt;&lt;a href=&quot;#修改头像&quot; class=&quot;headerlink&quot; title=&quot;修改头像&quot;&gt;&lt;/a&gt;修改头像&lt;/h3&gt;&lt;h4 id=&quot;1-图片上传预览&quot;&gt;&lt;a href=&quot;#1-图片上传预览&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/Vue/"/>
+    
+    
+    <category term="案例" scheme="https://a-xionglijun.github.io/tags/%E6%A1%88%E4%BE%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>圣杯布局</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/sheng-bei-bu-ju/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/sheng-bei-bu-ju/</id>
-    <published>2021-12-22T12:29:56.225Z</published>
-    <updated>2020-11-21T08:58:08.697Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/sheng-bei-bu-ju/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/sheng-bei-bu-ju/</id>
+    <published>2025-02-12T01:08:19.589Z</published>
+    <updated>2020-11-21T08:58:10.000Z</updated>
     
     
       
@@ -119,43 +144,43 @@
   </entry>
   
   <entry>
-    <title>修改头像</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/xiu-gai-tou-xiang/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/xiu-gai-tou-xiang/</id>
-    <published>2021-12-22T12:29:56.223Z</published>
-    <updated>2020-12-03T07:56:28.133Z</updated>
+    <title>面试题</title>
+    <link href="https://a-xionglijun.github.io/2025/02/12/mian-shi-ti/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/mian-shi-ti/</id>
+    <published>2025-02-12T01:08:19.558Z</published>
+    <updated>2020-11-29T08:24:18.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;修改头像&quot;&gt;&lt;a href=&quot;#修改头像&quot; class=&quot;headerlink&quot; title=&quot;修改头像&quot;&gt;&lt;/a&gt;修改头像&lt;/h3&gt;&lt;h4 id=&quot;1-图片上传预览&quot;&gt;&lt;a href=&quot;#1-图片上传预览&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h5 id=&quot;Vue-组件中的-data-为什么是一个函数&quot;&gt;&lt;a href=&quot;#Vue-组件中的-data-为什么是一个函数&quot; class=&quot;headerlink&quot; title=&quot;Vue 组件中的 data 为什么是一个函数?&quot;&gt;&lt;/a&gt;Vue 组件中的 data</summary>
         
       
     
     
     
-    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/Vue/"/>
+    <category term="text" scheme="https://a-xionglijun.github.io/categories/text/"/>
     
     
-    <category term="案例" scheme="https://a-xionglijun.github.io/tags/%E6%A1%88%E4%BE%8B/"/>
+    <category term="面试题" scheme="https://a-xionglijun.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
   </entry>
   
   <entry>
-    <title>依赖注入</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/yi-lai-zhu-ru/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/yi-lai-zhu-ru/</id>
-    <published>2021-12-22T12:29:56.220Z</published>
-    <updated>2020-11-21T12:41:59.542Z</updated>
+    <title>监听数组变化</title>
+    <link href="https://a-xionglijun.github.io/2025/02/12/jian-ting-shu-zu-dui-xiang-bian-hua/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/jian-ting-shu-zu-dui-xiang-bian-hua/</id>
+    <published>2025-02-12T01:08:18.572Z</published>
+    <updated>2020-12-28T12:21:06.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;依赖注入&quot;&gt;&lt;a href=&quot;#依赖注入&quot; class=&quot;headerlink&quot; title=&quot;依赖注入&quot;&gt;&lt;/a&gt;&lt;a</summary>
+    <summary type="html">&lt;h5 id=&quot;利用-Vue-中-keep-alive，快速实现页面缓存&quot;&gt;&lt;a href=&quot;#利用-Vue-中-keep-alive，快速实现页面缓存&quot; class=&quot;headerlink&quot; title=&quot;利用 Vue 中</summary>
         
       
     
@@ -164,48 +189,23 @@
     <category term="vue" scheme="https://a-xionglijun.github.io/categories/vue/"/>
     
     
-    <category term="provide 和 inject" scheme="https://a-xionglijun.github.io/tags/provide-%E5%92%8C-inject/"/>
+    <category term="Proxy" scheme="https://a-xionglijun.github.io/tags/Proxy/"/>
     
   </entry>
   
   <entry>
     <title>个人笔记</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/ge-ren-bi-ji/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/ge-ren-bi-ji/</id>
-    <published>2021-12-22T12:29:56.217Z</published>
-    <updated>2020-12-09T12:31:36.019Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/ge-ren-bi-ji/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/ge-ren-bi-ji/</id>
+    <published>2025-02-12T01:08:18.367Z</published>
+    <updated>2020-12-09T12:31:38.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;对象替换冒个字段名&quot;&gt;&lt;a href=&quot;#对象替换冒个字段名&quot; class=&quot;headerlink&quot; title=&quot;对象替换冒个字段名&quot;&gt;&lt;/a&gt;对象替换冒个字段名&lt;/h2&gt;&lt;pre class=&quot; language-js&quot;&gt;&lt;code</summary>
-        
-      
-    
-    
-    
-    <category term="皖熊" scheme="https://a-xionglijun.github.io/categories/%E7%9A%96%E7%86%8A/"/>
-    
-    
-    <category term="笔记" scheme="https://a-xionglijun.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>个人笔记 -dome</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/ge-ren-bi-ji-dome/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/ge-ren-bi-ji-dome/</id>
-    <published>2021-12-22T12:29:56.215Z</published>
-    <updated>2020-12-09T12:40:57.301Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;pre class=&quot; language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;DOCTYPE</summary>
+    <summary type="html">&lt;h2 id=&quot;对象替换冒个字段名&quot;&gt;&lt;a href=&quot;#对象替换冒个字段名&quot; class=&quot;headerlink&quot; title=&quot;对象替换冒个字段名&quot;&gt;&lt;/a&gt;对象替换冒个字段名&lt;/h2&gt;&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;//</summary>
         
       
     
@@ -220,10 +220,10 @@
   
   <entry>
     <title>yarn快速入门</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/yarn-kuai-su-ru-men/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/yarn-kuai-su-ru-men/</id>
-    <published>2021-12-22T12:29:56.212Z</published>
-    <updated>2020-12-03T06:13:11.776Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/yarn-kuai-su-ru-men/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/yarn-kuai-su-ru-men/</id>
+    <published>2025-02-12T01:08:18.327Z</published>
+    <updated>2020-12-03T06:13:12.000Z</updated>
     
     
       
@@ -246,10 +246,10 @@
   
   <entry>
     <title>vue组件之间通信</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/vue-zu-jian-zhi-jian-tong-xin/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/vue-zu-jian-zhi-jian-tong-xin/</id>
-    <published>2021-12-22T12:29:56.210Z</published>
-    <updated>2020-11-30T05:08:42.550Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/vue-zu-jian-zhi-jian-tong-xin/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/vue-zu-jian-zhi-jian-tong-xin/</id>
+    <published>2025-02-12T01:08:18.306Z</published>
+    <updated>2020-11-30T05:08:44.000Z</updated>
     
     
       
@@ -270,37 +270,11 @@
   </entry>
   
   <entry>
-    <title>uniapp</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/uniapp-shop/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/uniapp-shop/</id>
-    <published>2021-12-22T12:29:56.207Z</published>
-    <updated>2020-12-04T12:55:58.054Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;起步&quot;&gt;&lt;a href=&quot;#起步&quot; class=&quot;headerlink&quot; title=&quot;起步&quot;&gt;&lt;/a&gt;起步&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;访问 HBuilderX 的官网首页 &lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="小程序" scheme="https://a-xionglijun.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-    
-    <category term="配置" scheme="https://a-xionglijun.github.io/tags/%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>uni-shop</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/uni-shop/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/uni-shop/</id>
-    <published>2021-12-22T12:29:56.205Z</published>
-    <updated>2020-12-28T12:17:20.980Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/uni-shop/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/uni-shop/</id>
+    <published>2025-02-12T01:08:18.284Z</published>
+    <updated>2020-12-28T12:17:22.000Z</updated>
     
     
       
@@ -322,11 +296,37 @@
   </entry>
   
   <entry>
+    <title>uniapp</title>
+    <link href="https://a-xionglijun.github.io/2025/02/12/uniapp-shop/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/uniapp-shop/</id>
+    <published>2025-02-12T01:08:18.282Z</published>
+    <updated>2020-12-04T12:56:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;起步&quot;&gt;&lt;a href=&quot;#起步&quot; class=&quot;headerlink&quot; title=&quot;起步&quot;&gt;&lt;/a&gt;起步&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;访问 HBuilderX 的官网首页 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="小程序" scheme="https://a-xionglijun.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="配置" scheme="https://a-xionglijun.github.io/tags/%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>toRGB函数</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/torgb/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/torgb/</id>
-    <published>2021-12-22T12:29:56.203Z</published>
-    <updated>2020-11-29T08:30:44.258Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/torgb/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/torgb/</id>
+    <published>2025-02-12T01:08:18.280Z</published>
+    <updated>2020-11-29T08:30:46.000Z</updated>
     
     
       
@@ -348,10 +348,10 @@
   
   <entry>
     <title>vscode 同步</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/settings-sync/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/settings-sync/</id>
-    <published>2021-12-22T12:29:56.201Z</published>
-    <updated>2020-12-03T06:10:40.222Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/settings-sync/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/settings-sync/</id>
+    <published>2025-02-12T01:08:18.258Z</published>
+    <updated>2020-12-03T06:10:42.000Z</updated>
     
     
       
@@ -373,10 +373,10 @@
   
   <entry>
     <title>promise和axios</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/promise-he-axios/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/promise-he-axios/</id>
-    <published>2021-12-22T12:29:56.198Z</published>
-    <updated>2020-12-03T06:15:57.861Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/promise-he-axios/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/promise-he-axios/</id>
+    <published>2025-02-12T01:08:18.254Z</published>
+    <updated>2020-12-03T06:15:58.000Z</updated>
     
     
       
@@ -400,10 +400,10 @@
   
   <entry>
     <title>keep-alive内置组件的作用</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/keep-alive/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/keep-alive/</id>
-    <published>2021-12-22T12:29:56.196Z</published>
-    <updated>2020-11-21T11:49:29.156Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/keep-alive/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/keep-alive/</id>
+    <published>2025-02-12T01:08:18.228Z</published>
+    <updated>2020-11-21T11:49:30.000Z</updated>
     
     
       
@@ -425,10 +425,10 @@
   
   <entry>
     <title>副本</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/index-fu-ben/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/index-fu-ben/</id>
-    <published>2021-12-22T12:29:56.195Z</published>
-    <updated>2020-11-30T04:06:53.445Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/index-fu-ben/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/index-fu-ben/</id>
+    <published>2025-02-12T01:08:18.227Z</published>
+    <updated>2020-11-30T04:06:54.000Z</updated>
     
     
       
@@ -450,10 +450,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/hello-world/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/hello-world/</id>
-    <published>2021-12-22T12:29:56.192Z</published>
-    <updated>2020-11-29T08:30:16.467Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/hello-world/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/hello-world/</id>
+    <published>2025-02-12T01:08:18.168Z</published>
+    <updated>2020-11-29T08:30:18.000Z</updated>
     
     
       
@@ -475,10 +475,10 @@
   
   <entry>
     <title>git-02</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/git-02/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/git-02/</id>
-    <published>2021-12-22T12:29:56.190Z</published>
-    <updated>2020-12-03T06:32:45.980Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/git-02/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/git-02/</id>
+    <published>2025-02-12T01:08:18.167Z</published>
+    <updated>2020-12-03T06:32:46.000Z</updated>
     
     
       
@@ -501,10 +501,10 @@
   
   <entry>
     <title>git-01</title>
-    <link href="https://a-xionglijun.github.io/2021/12/22/git-01/"/>
-    <id>https://a-xionglijun.github.io/2021/12/22/git-01/</id>
-    <published>2021-12-22T12:29:56.188Z</published>
-    <updated>2020-12-03T06:28:45.426Z</updated>
+    <link href="https://a-xionglijun.github.io/2025/02/12/git-01/"/>
+    <id>https://a-xionglijun.github.io/2025/02/12/git-01/</id>
+    <published>2025-02-12T01:08:18.166Z</published>
+    <updated>2020-12-03T06:28:46.000Z</updated>
     
     
       
