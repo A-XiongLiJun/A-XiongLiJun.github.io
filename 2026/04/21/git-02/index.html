@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>git-02 | 皖熊的博客</title>
+  <meta name="keywords" content=" Git , GitHub , SSH , 分支管理 ">
+  <meta name="description" content="git-02 | 皖熊的博客">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta property="og:type" content="website">
+<meta property="og:title" content="about">
+<meta property="og:url" content="https://a-xionglijun.github.io/about/index.html">
+<meta property="og:site_name" content="皖熊的博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-11-18T09:11:45.000Z">
+<meta property="article:modified_time" content="2026-04-21T03:07:01.222Z">
+<meta property="article:author" content="皖熊">
+<meta name="twitter:card" content="summary">
+
+<link rel="alternate" href="/atom.xml" title="皖熊的博客" type="application/atom+xml">
+
+
+<link rel="icon" href="/favicon.png">
+
+<link href="/css/style.css?v=1.1.0" rel="stylesheet">
+
+<link href="/css/hl_theme/atom-light.css?v=1.1.0" rel="stylesheet">
+
+<link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
+
+<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="/js/titleTip.js?v=1.1.0" ></script>
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/jquery.cookie@1.4.1/jquery.cookie.min.js" ></script>
+
+<script src="/js/iconfont.js?v=1.1.0" ></script>
+
+<meta name="generator" content="Hexo 5.4.2">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="">
+  <input class="theme_blog_path" value="">
+  <input id="theme_shortcut" value="true" />
+  <input id="theme_highlight_on" value="true" />
+  <input id="theme_code_copy" value="true" />
+</div>
+
+
+
+<body>
+<aside class="nav">
+    <div class="nav-left">
+        <a href="/"
+   class="avatar_target">
+    <img class="avatar"
+         src="/img/avatar.jpg"/>
+</a>
+<div class="author">
+    <span>皖熊</span>
+</div>
+
+<div class="icon">
+    
+        
+            <a title="rss"
+               href="/atom.xml"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-rss"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="github"
+               href="https://github.com"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <a title="email"
+               href="mailto:173451161@qq.com"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-email"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="qq"
+               href="http://wpa.qq.com/msgrd?v=3&uin=173451161&site=qq&menu=yes"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+    
+        
+    
+</div>
+
+
+
+
+
+<ul>
+    <li>
+        <div class="all active" data-rel="全部文章">全部文章
+            
+                <small>(18)</small>
+            
+        </div>
+    </li>
+    
+        
+            
+                
+    <li>
+        <div data-rel="前端">
+            <i class="fold iconfont icon-right"></i>
+            前端
+            <small>(11)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="前端&lt;---&gt;JavaScript">
+            
+            JavaScript
+            <small>(3)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="前端&lt;---&gt;CSS">
+            
+            CSS
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="前端&lt;---&gt;Vue">
+            <i class="fold iconfont icon-right"></i>
+            Vue
+            <small>(5)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="前端&lt;---&gt;Vue&lt;---&gt;组件通信">
+            
+            组件通信
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="前端&lt;---&gt;uni-app">
+            
+            uni-app
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="前端&lt;---&gt;项目实战">
+            
+            项目实战
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="工具">
+            <i class="fold iconfont icon-right"></i>
+            工具
+            <small>(4)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="工具&lt;---&gt;Git">
+            
+            Git
+            <small>(2)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="工具&lt;---&gt;VSCode">
+            
+            VSCode
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="工具&lt;---&gt;包管理器">
+            
+            包管理器
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+                
+    <li>
+        <div data-rel="杂记">
+            <i class="fold iconfont icon-right"></i>
+            杂记
+            <small>(3)</small>
+        </div>
+        
+            <ul class="sub hide">
+                
+                    
+    <li>
+        <div data-rel="杂记&lt;---&gt;面试">
+            
+            面试
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+                
+                    
+    <li>
+        <div data-rel="杂记&lt;---&gt;笔记">
+            
+            笔记
+            <small>(2)</small>
+        </div>
+        
+    </li>
+
+                
+            </ul>
+        
+    </li>
+
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+</ul>
+<div class="left-bottom">
+    <div class="menus">
+        
+    </div>
+    <div>
+        
+            <a class="about  hasFriend  site_url"
+               
+               href="/about">关于</a>
+        
+        <a style="width: 50%"
+                
+                                           class="friends">友链</a>
+        
+    </div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="18">
+
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
+
+    </div>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        友情链接
+        <i class="iconfont icon-left"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="/null">码酱</a></li>
+            
+            <li><a target="_blank" href="/null">闪烁之狐</a></li>
+            
+            <li><a target="_blank" href="/null">ja_rome</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <div class="right-top">
+        <div id="default-panel">
+            <i class="iconfont icon-search" data-title="搜索 快捷键 i"></i>
+            <div class="right-title">全部文章</div>
+            <i class="iconfont icon-file-tree" data-title="切换到大纲视图 快捷键 w"></i>
+        </div>
+        <div id="search-panel">
+            <i class="iconfont icon-left" data-title="返回"></i>
+            <input id="local-search-input" autocomplete="off"/>
+            <label class="border-line" for="input"></label>
+            <i class="iconfont icon-case-sensitive" data-title="大小写敏感"></i>
+            <i class="iconfont icon-tag" data-title="标签"></i>
+        </div>
+        <div id="outline-panel" style="display: none">
+            <div class="right-title">大纲</div>
+            <i class="iconfont icon-list" data-title="切换到文章列表"></i>
+        </div>
+    </div>
+
+    <div class="tags-list">
+    <input id="tag-search" />
+    <div class="tag-wrapper">
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>版本控制</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>包管理器</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>笔记</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>闭包</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>布局</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>定时器</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>分支管理</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>工具函数</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>基础</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>快速入门</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>面试题</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>配置同步</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>商城项目</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>生命周期</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>圣杯布局</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>示例代码</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>头像裁剪</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>图片上传</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>网络请求</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>微信小程序</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>响应式</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>项目案例</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>颜色转换</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>依赖注入</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>组件缓存</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>组件通信</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>API 封装</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Axios</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>CSS</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Fetch</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Git</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>GitHub</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>HBuilderX</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>HTML</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>JavaScript</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>keep-alive</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>npm</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Object.defineProperty</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Promise</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>provide 和 inject</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Proxy</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Settings Sync</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>SSH</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>uni-app</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>VSCode</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Vue</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Vuex</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Yarn</a>
+            </li>
+        
+    </div>
+
+</div>
+
+    
+    <div id="local-search-result">
+
+    </div>
+    
+    <nav id="title-list-nav">
+        
+        
+        <a  class="全部文章 前端 项目实战 "
+           href="/2026/04/21/uni-shop/"
+           data-tag="uni-app,微信小程序,商城项目"
+           data-author="" >
+            <span class="post-title" title="uni-shop">uni-shop</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 前端 uni-app "
+           href="/2026/04/21/uniapp-shop/"
+           data-tag="uni-app,微信小程序,HBuilderX,快速入门"
+           data-author="" >
+            <span class="post-title" title="uniapp 快速入门">uniapp 快速入门</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 前端 Vue 组件通信 "
+           href="/2026/04/21/vue-zu-jian-zhi-jian-tong-xin/"
+           data-tag="组件通信,Vuex,provide 和 inject"
+           data-author="" >
+            <span class="post-title" title="vue组件之间通信">vue组件之间通信</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 工具 包管理器 "
+           href="/2026/04/21/yarn-kuai-su-ru-men/"
+           data-tag="Yarn,包管理器,npm"
+           data-author="" >
+            <span class="post-title" title="yarn快速入门">yarn快速入门</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 前端 Vue "
+           href="/2026/04/21/yi-lai-zhu-ru/"
+           data-tag="组件通信,provide 和 inject,依赖注入"
+           data-author="" >
+            <span class="post-title" title="依赖注入">依赖注入</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 前端 Vue "
+           href="/2026/04/21/jian-ting-shu-zu-dui-xiang-bian-hua/"
+           data-tag="响应式,Object.defineProperty,Proxy"
+           data-author="" >
+            <span class="post-title" title="监听数组变化">监听数组变化</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 杂记 面试 "
+           href="/2026/04/21/mian-shi-ti/"
+           data-tag="JavaScript,Vue,面试题"
+           data-author="" >
+            <span class="post-title" title="面试题">面试题</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 工具 VSCode "
+           href="/2026/04/21/settings-sync/"
+           data-tag="VSCode,Settings Sync,配置同步"
+           data-author="" >
+            <span class="post-title" title="vscode 同步">vscode 同步</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 工具 Git "
+           href="/2026/04/21/git-02/"
+           data-tag="Git,GitHub,SSH,分支管理"
+           data-author="" >
+            <span class="post-title" title="git-02">git-02</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 工具 Git "
+           href="/2026/04/21/git-01/"
+           data-tag="Git,版本控制,基础"
+           data-author="" >
+            <span class="post-title" title="git-01">git-01</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 前端 Vue "
+           href="/2026/04/21/keep-alive/"
+           data-tag="keep-alive,组件缓存,生命周期"
+           data-author="" >
+            <span class="post-title" title="keep-alive内置组件的作用">keep-alive内置组件的作用</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 前端 JavaScript "
+           href="/2026/04/21/promise-he-axios/"
+           data-tag="JavaScript,Promise,Axios,Fetch,网络请求"
+           data-author="" >
+            <span class="post-title" title="promise和axios">promise和axios</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 前端 JavaScript "
+           href="/2026/04/21/torgb/"
+           data-tag="JavaScript,工具函数,颜色转换"
+           data-author="" >
+            <span class="post-title" title="toRGB函数">toRGB函数</span>
+            <span class="post-date" title="2026-04-21 11:07:48">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 前端 Vue "
+           href="/2026/04/21/xiu-gai-tou-xiang/"
+           data-tag="图片上传,头像裁剪,项目案例"
+           data-author="" >
+            <span class="post-title" title="修改头像">修改头像</span>
+            <span class="post-date" title="2026-04-21 11:07:01">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 前端 CSS "
+           href="/2026/04/21/sheng-bei-bu-ju/"
+           data-tag="HTML,CSS,布局,圣杯布局"
+           data-author="" >
+            <span class="post-title" title="圣杯布局">圣杯布局</span>
+            <span class="post-date" title="2026-04-21 11:07:01">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 前端 JavaScript "
+           href="/2026/04/21/xun-huan-ding-shi-qi/"
+           data-tag="JavaScript,定时器,闭包"
+           data-author="" >
+            <span class="post-title" title="循环定时器">循环定时器</span>
+            <span class="post-date" title="2026-04-21 11:07:01">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 杂记 笔记 "
+           href="/2026/04/21/ge-ren-bi-ji-dome/"
+           data-tag="笔记,示例代码"
+           data-author="" >
+            <span class="post-title" title="个人笔记 -dome">个人笔记 -dome</span>
+            <span class="post-date" title="2026-04-21 11:07:01">2026/04/21</span>
+        </a>
+        
+        
+        <a  class="全部文章 杂记 笔记 "
+           href="/2026/04/21/ge-ren-bi-ji/"
+           data-tag="JavaScript,笔记,API 封装"
+           data-author="" >
+            <span class="post-title" title="个人笔记">个人笔记</span>
+            <span class="post-date" title="2026-04-21 11:07:01">2026/04/21</span>
+        </a>
+        
+        <div id="no-item-tips">
+
+        </div>
+    </nav>
+    <div id="outline-list">
+    </div>
+</div>
+
+    </div>
+    <div class="hide-list">
+        <div class="semicircle" data-title="切换全屏 快捷键 s">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div id="post">
+    <div class="pjax">
+        <article id="post-git-02" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">git-02</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="工具">工具</a> > 
+            
+            <a  data-rel="工具&lt;---&gt;Git">Git</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color4">Git</a>
+            
+            <a class="color2">GitHub</a>
+            
+            <a class="color4">SSH</a>
+            
+            <a class="color5">分支管理</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            发布时间 : <time class="date" title='最后更新: 2026-04-21 12:38:09'>2026-04-21 11:07</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%9F%E6%88%90-SSH-key"><span class="toc-text">生成 SSH key</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE-SSH-key"><span class="toc-text">配置 SSH key</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A3%80%E6%B5%8B-Github-%E7%9A%84-SSH-key-%E6%98%AF%E5%90%A6%E9%85%8D%E7%BD%AE%E6%88%90%E5%8A%9F"><span class="toc-text">检测 Github 的 SSH key 是否配置成功</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E4%BA%8E-SSH-%E5%B0%86%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8A%E4%BC%A0%E5%88%B0-Github"><span class="toc-text">基于 SSH 将本地仓库上传到 Github</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%86%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%85%8B%E9%9A%86%E5%88%B0%E6%9C%AC%E5%9C%B0"><span class="toc-text">将远程仓库克隆到本地</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Git%E5%88%86%E6%94%AF"><span class="toc-text">Git分支</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E6%94%AF%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-text">分支的概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#master-%E4%B8%BB%E5%88%86%E6%94%AF"><span class="toc-text">master 主分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD%E5%88%86%E6%94%AF"><span class="toc-text">功能分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8B%E5%88%86%E6%94%AF%E5%88%97%E8%A1%A8-%E2%AD%90%E2%AD%90%E2%AD%90"><span class="toc-text">查看分支列表(⭐⭐⭐)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E6%96%B0%E5%88%86%E6%94%AF"><span class="toc-text">创建新分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%87%E6%8D%A2%E5%88%86%E6%94%AF"><span class="toc-text">切换分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E6%94%AF%E7%9A%84%E5%BF%AB%E9%80%9F%E5%88%9B%E5%BB%BA%E5%92%8C%E5%88%87%E6%8D%A2-%E2%AD%90%E2%AD%90%E2%AD%90"><span class="toc-text">分支的快速创建和切换(⭐⭐⭐)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%88%E5%B9%B6%E5%88%86%E6%94%AF"><span class="toc-text">合并分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E5%88%86%E6%94%AF"><span class="toc-text">删除分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%81%87%E5%88%B0%E5%86%B2%E7%AA%81%E6%97%B6%E7%9A%84%E5%88%86%E6%94%AF%E5%90%88%E5%B9%B6"><span class="toc-text">遇到冲突时的分支合并</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C"><span class="toc-text">远程分支操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%86%E6%9C%AC%E5%9C%B0%E5%88%86%E6%94%AF%E6%8E%A8%E9%80%81%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93-%E2%AD%90%E2%AD%90%E2%AD%90"><span class="toc-text">将本地分支推送到远程仓库(⭐⭐⭐)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8B%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E4%B8%AD%E6%89%80%E6%9C%89%E7%9A%84%E5%88%86%E6%94%AF%E5%88%97%E8%A1%A8"><span class="toc-text">查看远程仓库中所有的分支列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E4%B8%AD%E6%8C%87%E5%AE%9A%E5%88%86%E6%94%AF"><span class="toc-text">拉取远程仓库中指定分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B7%9F%E8%B8%AA%E5%88%86%E6%94%AF-%E2%AD%90%E2%AD%90%E2%AD%90"><span class="toc-text">跟踪分支(⭐⭐⭐)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF%E7%9A%84%E6%9C%80%E6%96%B0%E7%9A%84%E4%BB%A3%E7%A0%81"><span class="toc-text">拉取远程分支的最新的代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF"><span class="toc-text">删除远程分支</span></a>
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-4 i,
+    .toc-level-4 ol {
+        display: none !important;
+    }
+</style>
+</div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="生成-SSH-key"><a href="#生成-SSH-key" class="headerlink" title="生成 SSH key"></a>生成 SSH key</h4><p>① 打开 Git Bash</p>
+<p>② 粘贴如下的命令，并将 <code>your_email@example.com</code> 替换为注册 <code>Github</code> 账号时填写的邮箱：</p>
+<ul>
+<li><code>ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</code></li>
+</ul>
+<p>③ 连续敲击 3 次回车，即可在 <code>C:\Users\用户名文件夹\.ssh</code> 目录中生成 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 两个文件</p>
+<h4 id="配置-SSH-key"><a href="#配置-SSH-key" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h4><p>① 使用记事本打开 <code>id_rsa.pub</code> 文件，复制里面的文本内容</p>
+<p>② 在浏览器中登录 <code>Github</code>，点击头像 -&gt; <code>Settings -&gt; SSH and GPG Keys -&gt; New SSH key</code></p>
+<p>③ 将 <code>id_rsa.pub</code> 文件中的内容，粘贴到 <code>Key</code> 对应的文本框中</p>
+<p>④ 在 <code>Title</code> 文本框中任意填写一个名称，来标识这个 <code>Key</code> 从何而来</p>
+<h4 id="检测-Github-的-SSH-key-是否配置成功"><a href="#检测-Github-的-SSH-key-是否配置成功" class="headerlink" title="检测 Github 的 SSH key 是否配置成功"></a>检测 <code>Github</code> 的 <code>SSH key</code> 是否配置成功</h4><ul>
+<li><p>打开 <code>Git Bash</code>，输入如下的命令并回车执行：</p>
+<pre class=" language-shell"><code class="language-shell">ssh -T git@github.com
+</code></pre>
+</li>
+<li><p>上述的命令执行成功后，可能会看到提示消息</p>
+</li>
+<li><p>输入 <code>yes</code> 之后，如果能看到类似于下面的提示消息，证明 <code>SSH key</code> 已经配置成功了：</p>
+</li>
+</ul>
+<h4 id="基于-SSH-将本地仓库上传到-Github"><a href="#基于-SSH-将本地仓库上传到-Github" class="headerlink" title="基于 SSH 将本地仓库上传到 Github"></a>基于 SSH 将本地仓库上传到 <code>Github</code></h4><p><strong>注意：</strong> <code>git push origin master</code> 也能进行提交，<code>git push origin -u</code> 的话可以提交代码，并且把<code>origin</code> 当作默认的主机，后续直接 <code>git push</code> 就可以提交到<code>origin</code>对应的主机</p>
+<h4 id="将远程仓库克隆到本地"><a href="#将远程仓库克隆到本地" class="headerlink" title="将远程仓库克隆到本地"></a>将远程仓库克隆到本地</h4><p>打开 <code>Git Bash</code>，输入如下的命令并回车执行：</p>
+<pre class=" language-shell"><code class="language-shell">git clone 远程仓库的地址
+</code></pre>
+<h1 id="Git分支"><a href="#Git分支" class="headerlink" title="Git分支"></a><code>Git</code>分支</h1><h2 id="分支的概念"><a href="#分支的概念" class="headerlink" title="分支的概念"></a>分支的概念</h2><h2 id="master-主分支"><a href="#master-主分支" class="headerlink" title="master 主分支"></a>master 主分支</h2><p>在初始化本地 <code>Git</code> 仓库的时候，<code>Git</code> 默认已经帮我们创建了一个名字叫做 <code>master</code> 的分支。通常我们把这个</p>
+<p><code>master</code> 分支叫做主分支。</p>
+<p>在实际工作中，<code>master</code> 主分支的作用是：<strong>用来保存和记录整个项目已完成的功能代码</strong>。</p>
+<p>因此，<strong>不允许程序员直接在 <code>master</code> 分支上修改代码</strong>，因为这样做的风险太高，容易导致整个项目崩溃。</p>
+<h2 id="功能分支"><a href="#功能分支" class="headerlink" title="功能分支"></a>功能分支</h2><p>由于程序员不能直接在 <code>master</code> 分支上进行功能的开发，所以就有了功能分支的概念。</p>
+<p><strong>功能分支</strong>指的是专门用来开发新功能的分支，它是临时从 <code>master</code> 主分支上分叉出来的，当新功能开发且测试</p>
+<p>完毕后，最终需要合并到 <code>master</code> 主分支上</p>
+<h2 id="查看分支列表-⭐⭐⭐"><a href="#查看分支列表-⭐⭐⭐" class="headerlink" title="查看分支列表(⭐⭐⭐)"></a>查看分支列表(⭐⭐⭐)</h2><p>使用如下的命令，可以查看当前 Git 仓库中所有的分支列表：</p>
+<pre class=" language-shell"><code class="language-shell">git branch
+</code></pre>
+<p>运行的结果如下所示：</p>
+<p><img src="images/%E6%9F%A5%E7%9C%8B%E5%88%86%E6%94%AF.png"></p>
+<p><strong>注意：</strong>分支名字前面的 <strong>*</strong> 号表示当前所处的分支。</p>
+<h2 id="创建新分支"><a href="#创建新分支" class="headerlink" title="创建新分支"></a>创建新分支</h2><p>使用如下的命令，可以<strong>基于当前分支</strong>，<strong>创建一个新的分支</strong>，此时，新分支中的代码和当前分支完全一样：</p>
+<pre><code>git branch 分支名称
+</code></pre>
+<h2 id="切换分支"><a href="#切换分支" class="headerlink" title="切换分支"></a>切换分支</h2><p>使用如下的命令，可以<strong>切换到指定的分支上</strong>进行开发：</p>
+<pre class=" language-shell"><code class="language-shell">git checkout login
+</code></pre>
+<h2 id="分支的快速创建和切换-⭐⭐⭐"><a href="#分支的快速创建和切换-⭐⭐⭐" class="headerlink" title="分支的快速创建和切换(⭐⭐⭐)"></a>分支的快速创建和切换(⭐⭐⭐)</h2><p>使用如下的命令，可以<strong>创建指定名称的新分支</strong>，并<strong>立即切换到新分支上</strong>：</p>
+<pre class=" language-shell"><code class="language-shell"># -b 表示创建一个新分支
+# checkout 表示切换到刚才新建的分支上
+git checkout -b 分支名称
+</code></pre>
+<p><strong>注意：</strong></p>
+<p>“<code>git checkout -b 分支名称</code>“ 是下面</p>
+<p>两条命令的简写形式：</p>
+<p>① <code>git branch</code> 分支名称</p>
+<p>② <code>git checkout</code> 分支名称</p>
+<h2 id="合并分支"><a href="#合并分支" class="headerlink" title="合并分支"></a>合并分支</h2><p>功能分支的代码开发测试完毕之后，可以使用如下的命令，将完成后的代码合并到 <code>master</code> 主分支上：</p>
+<pre class=" language-shell"><code class="language-shell"># 1. 切换到 master 分支
+git checkout master
+# 2. 在master 分支上运行 git merge 命令，将 login 分支的代码合班到 master 分支
+git merge login
+</code></pre>
+<p><strong>合并分支时的注意点</strong>：</p>
+<p>假设要把 C 分支的代码合并到 A 分支，</p>
+<p>则必须<strong>先切换到 A 分支</strong>上，<strong>再运行 git merge 命令</strong>，来合并 C 分支！</p>
+<h2 id="删除分支"><a href="#删除分支" class="headerlink" title="删除分支"></a>删除分支</h2><p>当把功能分支的代码合并到 <code>master</code> 主分支上以后，就可以使用如下的命令，删除对应的功能分支：</p>
+<pre class=" language-shell"><code class="language-shell">git branch -d 分支名称
+</code></pre>
+<h2 id="遇到冲突时的分支合并"><a href="#遇到冲突时的分支合并" class="headerlink" title="遇到冲突时的分支合并"></a>遇到冲突时的分支合并</h2><p>如果<strong>在两个不同的分支中</strong>，对<strong>同一个文件</strong>进行了<strong>不同的修改</strong>，Git 就没法干净的合并它们。 此时，我们需要打开</p>
+<p>这些包含冲突的文件然后<strong>手动解决冲突</strong>。</p>
+<pre class=" language-shell"><code class="language-shell"># 假设：在把 reg 分支合并到 master 分支期间
+git checkout master
+git merge reg
+
+# 打开包含冲突的文件，手动解决冲突之后，再执行如下命令
+git add .
+git commit -m "解决了分支合并冲突的问题"
+</code></pre>
+<h1 id="远程分支操作"><a href="#远程分支操作" class="headerlink" title="远程分支操作"></a>远程分支操作</h1><h2 id="将本地分支推送到远程仓库-⭐⭐⭐"><a href="#将本地分支推送到远程仓库-⭐⭐⭐" class="headerlink" title="将本地分支推送到远程仓库(⭐⭐⭐)"></a>将本地分支推送到远程仓库(⭐⭐⭐)</h2><p>如果是<strong>第一次</strong>将本地分支推送到远程仓库，需要运行如下的命令：</p>
+<pre class=" language-shell"><code class="language-shell"># -u 表示把本地分支和远程分支进行关联，只在第一次推送的时候需要带 -u 参数
+git push -u 远程仓库的别名 本地分支名称:远程分支名称
+
+# 实际案例
+git push -u origin payment:pay
+
+# 如果希望远程分支的名称和本地分支名称保持一致，可以对命令进行简化
+git push -u origin payment
+</code></pre>
+<p><strong>注意：</strong>第一次推送分支需要带 <strong>-u 参数</strong>，此后可以直接使用 <code>git push</code> 推送代码到远程分支。</p>
+<h2 id="查看远程仓库中所有的分支列表"><a href="#查看远程仓库中所有的分支列表" class="headerlink" title="查看远程仓库中所有的分支列表"></a>查看远程仓库中所有的分支列表</h2><p>通过如下的命令，可以查看远程仓库中，所有的分支列表的信息：</p>
+<pre class=" language-shell"><code class="language-shell">git remote show 远程仓库名称
+</code></pre>
+<h2 id="拉取远程仓库中指定分支"><a href="#拉取远程仓库中指定分支" class="headerlink" title="拉取远程仓库中指定分支"></a>拉取远程仓库中指定分支</h2><pre class=" language-shell"><code class="language-shell">git fetch git@gitee.com:zhoushugang/hmmm-frontend-100-01.git develop:develop
+</code></pre>
+<h2 id="跟踪分支-⭐⭐⭐"><a href="#跟踪分支-⭐⭐⭐" class="headerlink" title="跟踪分支(⭐⭐⭐)"></a>跟踪分支(⭐⭐⭐)</h2><p>跟踪分支指的是：从远程仓库中，把远程分支下载到本地仓库中。需要运行的命令如下：</p>
+<pre class=" language-shell"><code class="language-shell"># 示例
+git checkout pay
+
+# 从远程仓库中，把对应的远程分支下载到本地仓库，并把下载的本地分支进行重命名
+git checkout -b 本地分支名称 远程仓库名称/远程分支名称
+
+# 示例
+git checkout -b payment origin/pay
+</code></pre>
+<h2 id="拉取远程分支的最新的代码"><a href="#拉取远程分支的最新的代码" class="headerlink" title="拉取远程分支的最新的代码"></a>拉取远程分支的最新的代码</h2><p>可以使用如下的命令，把远程分支最新的代码下载到本地对应的分支中:</p>
+<pre class=" language-shell"><code class="language-shell"># 从远程仓库，拉取当前分支最新的代码，保持当前分支的代码和远程分支代码一致
+git pull
+</code></pre>
+<h2 id="删除远程分支"><a href="#删除远程分支" class="headerlink" title="删除远程分支"></a>删除远程分支</h2><p>可以使用如下的命令，删除远程仓库中指定的分支：</p>
+<pre class=" language-shell"><code class="language-shell"># 删除远程仓库中，制定名称的远程分支
+git push 远程仓库名称 --delete 远程分支名称
+
+# 示例
+git push origin --delete pay
+</code></pre>
+
+      
+       
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+
+
+
+
+    
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p class="footer-entry">
+    Copyright © 2019 皖熊
+</p>
+
+<p class="footer-entry">
+    
+    总访问量: <span class="site_pv"></span> 次</span>
+    
+    
+    <span>|&nbsp; 总访问人数: <span class="site_uv"></span> 人</span>
+    
+</p>
+
+
+
+    </div>
+    <div class="full-toc">
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+<a class="" id="rocket" ></a>
+
+    </div>
+</div>
+
+<div class="hide_box" onclick="dashangToggle()"></div>
+<div class="shang_box">
+    <a class="shang_close"  onclick="dashangToggle()">×</a>
+    <div class="shang_tit">
+        <p>喜欢就点赞,疼爱就打赏</p>
+    </div>
+    <div class="shang_payimg">
+        <div class="pay_img">
+            <img src="/img/alipay.jpg" class="alipay" title="扫码支持">
+            <img src="/img/weixin.jpg" class="weixin" title="扫码支持">
+        </div>
+    </div>
+    <div class="shang_payselect">
+        <span><label><input type="radio" name="pay" checked value="alipay">支付宝</label></span><span><label><input type="radio" name="pay" value="weixin">微信</label></span>
+    </div>
+</div>
+
+
+</body>
+<script src="/js/jquery.pjax.js?v=1.1.0" ></script>
+
+<script src="/js/script.js?v=1.1.0" ></script>
+<script>
+    var img_resize = 'default';
+    function initArticle() {
+        /*渲染对应的表格样式*/
+        
+            $("#post .pjax table").addClass("green_title");
+        
+
+        /*渲染打赏样式*/
+        
+        $("input[name=pay]").on("click", function () {
+            if($("input[name=pay]:checked").val()=="weixin"){
+                $(".shang_box .shang_payimg .pay_img").addClass("weixin_img");
+            } else {
+                $(".shang_box .shang_payimg .pay_img").removeClass("weixin_img");
+            }
+        })
+        
+
+        /*高亮代码块行号*/
+        
+
+        /*访问数量*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*代码高亮，行号对齐*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+        
+    }
+
+    /*打赏页面隐藏与展示*/
+    
+    function dashangToggle() {
+        $(".shang_box").fadeToggle();
+        $(".hide_box").fadeToggle();
+    }
+    
+
+</script>
+
+<!--加入行号的高亮代码块样式-->
+
+<!--自定义样式设置-->
+<style>
+    
+    
+    .nav {
+        width: 542px;
+    }
+    .nav.fullscreen {
+        margin-left: -542px;
+    }
+    .nav-left {
+        width: 120px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 492px;
+        }
+        .nav.fullscreen {
+            margin-left: -492px;
+        }
+        .nav-left {
+            width: 100px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 492px;
+            margin-left: -492px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*列表样式*/
+    
+
+    /* 背景图样式 */
+    
+    
+
+
+    /*引用块样式*/
+    
+
+    /*文章列表背景图*/
+    
+
+    
+</style>
+
+
+
+
+
+
+
+</html>

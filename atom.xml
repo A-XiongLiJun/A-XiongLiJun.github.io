@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>皖熊的博客</title>
+  
+  <subtitle>皖熊</subtitle>
+  <link href="https://a-xionglijun.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://a-xionglijun.github.io/"/>
+  <updated>2026-04-21T04:38:09.886Z</updated>
+  <id>https://a-xionglijun.github.io/</id>
+  
+  <author>
+    <name>皖熊</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>uni-shop</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/uni-shop/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/uni-shop/</id>
+    <published>2026-04-21T03:07:48.726Z</published>
+    <updated>2026-04-21T04:38:09.886Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Headline&quot;&gt;&lt;a href=&quot;#Headline&quot; class=&quot;headerlink&quot; title=&quot;Headline&quot;&gt;&lt;/a&gt;Headline&lt;/h2&gt;&lt;p&gt;TIP&lt;br&gt;基于 uniapp 开发的微信小程序商城项目&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="项目实战" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/"/>
+    
+    
+    <category term="uni-app" scheme="https://a-xionglijun.github.io/tags/uni-app/"/>
+    
+    <category term="微信小程序" scheme="https://a-xionglijun.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="商城项目" scheme="https://a-xionglijun.github.io/tags/%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>uniapp 快速入门</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/uniapp-shop/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/uniapp-shop/</id>
+    <published>2026-04-21T03:07:48.726Z</published>
+    <updated>2026-04-21T04:38:09.918Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;起步&quot;&gt;&lt;a href=&quot;#起步&quot; class=&quot;headerlink&quot; title=&quot;起步&quot;&gt;&lt;/a&gt;起步&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;访问 HBuilderX 的官网首页 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="uni-app" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/uni-app/"/>
+    
+    
+    <category term="uni-app" scheme="https://a-xionglijun.github.io/tags/uni-app/"/>
+    
+    <category term="微信小程序" scheme="https://a-xionglijun.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="HBuilderX" scheme="https://a-xionglijun.github.io/tags/HBuilderX/"/>
+    
+    <category term="快速入门" scheme="https://a-xionglijun.github.io/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue组件之间通信</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/vue-zu-jian-zhi-jian-tong-xin/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/vue-zu-jian-zhi-jian-tong-xin/</id>
+    <published>2026-04-21T03:07:48.726Z</published>
+    <updated>2026-04-21T04:41:49.988Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;vue-组件之间通信的-8-种方式&quot;&gt;&lt;a href=&quot;#vue-组件之间通信的-8-种方式&quot; class=&quot;headerlink&quot; title=&quot;vue 组件之间通信的 8 种方式&quot;&gt;&lt;/a&gt;vue 组件之间通信的 8 种方式&lt;/h3&gt;&lt;p&gt;对于 vue</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/"/>
+    
+    <category term="组件通信" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1/"/>
+    
+    
+    <category term="组件通信" scheme="https://a-xionglijun.github.io/tags/%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1/"/>
+    
+    <category term="Vuex" scheme="https://a-xionglijun.github.io/tags/Vuex/"/>
+    
+    <category term="provide 和 inject" scheme="https://a-xionglijun.github.io/tags/provide-%E5%92%8C-inject/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>yarn快速入门</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/yarn-kuai-su-ru-men/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/yarn-kuai-su-ru-men/</id>
+    <published>2026-04-21T03:07:48.726Z</published>
+    <updated>2026-04-21T04:38:09.979Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一-yarn-简介&quot;&gt;&lt;a href=&quot;#一-yarn-简介&quot; class=&quot;headerlink&quot; title=&quot;一.yarn 简介&quot;&gt;&lt;/a&gt;一.yarn 简介&lt;/h2&gt;&lt;p&gt;Facebook 贡献的 Javascript 包管理器。&lt;/p&gt;
+&lt;p&gt;yarn</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://a-xionglijun.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="包管理器" scheme="https://a-xionglijun.github.io/categories/%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/"/>
+    
+    
+    <category term="Yarn" scheme="https://a-xionglijun.github.io/tags/Yarn/"/>
+    
+    <category term="包管理器" scheme="https://a-xionglijun.github.io/tags/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/"/>
+    
+    <category term="npm" scheme="https://a-xionglijun.github.io/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>依赖注入</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/yi-lai-zhu-ru/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/yi-lai-zhu-ru/</id>
+    <published>2026-04-21T03:07:48.726Z</published>
+    <updated>2026-04-21T04:38:10.074Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;依赖注入&quot;&gt;&lt;a href=&quot;#依赖注入&quot; class=&quot;headerlink&quot; title=&quot;依赖注入&quot;&gt;&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/"/>
+    
+    
+    <category term="组件通信" scheme="https://a-xionglijun.github.io/tags/%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1/"/>
+    
+    <category term="provide 和 inject" scheme="https://a-xionglijun.github.io/tags/provide-%E5%92%8C-inject/"/>
+    
+    <category term="依赖注入" scheme="https://a-xionglijun.github.io/tags/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>监听数组变化</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/jian-ting-shu-zu-dui-xiang-bian-hua/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/jian-ting-shu-zu-dui-xiang-bian-hua/</id>
+    <published>2026-04-21T03:07:48.726Z</published>
+    <updated>2026-04-21T04:38:10.197Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;利用-Vue-中-keep-alive，快速实现页面缓存&quot;&gt;&lt;a href=&quot;#利用-Vue-中-keep-alive，快速实现页面缓存&quot; class=&quot;headerlink&quot; title=&quot;利用 Vue 中</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/"/>
+    
+    
+    <category term="响应式" scheme="https://a-xionglijun.github.io/tags/%E5%93%8D%E5%BA%94%E5%BC%8F/"/>
+    
+    <category term="Object.defineProperty" scheme="https://a-xionglijun.github.io/tags/Object-defineProperty/"/>
+    
+    <category term="Proxy" scheme="https://a-xionglijun.github.io/tags/Proxy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面试题</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/mian-shi-ti/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/mian-shi-ti/</id>
+    <published>2026-04-21T03:07:48.726Z</published>
+    <updated>2026-04-21T04:38:10.225Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;Vue-组件中的-data-为什么是一个函数&quot;&gt;&lt;a href=&quot;#Vue-组件中的-data-为什么是一个函数&quot; class=&quot;headerlink&quot; title=&quot;Vue 组件中的 data 为什么是一个函数?&quot;&gt;&lt;/a&gt;Vue 组件中的 data</summary>
+        
+      
+    
+    
+    
+    <category term="杂记" scheme="https://a-xionglijun.github.io/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    <category term="面试" scheme="https://a-xionglijun.github.io/categories/%E6%9D%82%E8%AE%B0/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="JavaScript" scheme="https://a-xionglijun.github.io/tags/JavaScript/"/>
+    
+    <category term="Vue" scheme="https://a-xionglijun.github.io/tags/Vue/"/>
+    
+    <category term="面试题" scheme="https://a-xionglijun.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode 同步</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/settings-sync/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/settings-sync/</id>
+    <published>2026-04-21T03:07:48.725Z</published>
+    <updated>2026-04-21T04:38:09.680Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;备份&quot;&gt;&lt;a href=&quot;#备份&quot; class=&quot;headerlink&quot; title=&quot;备份&quot;&gt;&lt;/a&gt;备份&lt;/h1&gt;&lt;h2 id=&quot;配置-Settings-Sync&quot;&gt;&lt;a href=&quot;#配置-Settings-Sync&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://a-xionglijun.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="VSCode" scheme="https://a-xionglijun.github.io/categories/%E5%B7%A5%E5%85%B7/VSCode/"/>
+    
+    
+    <category term="VSCode" scheme="https://a-xionglijun.github.io/tags/VSCode/"/>
+    
+    <category term="Settings Sync" scheme="https://a-xionglijun.github.io/tags/Settings-Sync/"/>
+    
+    <category term="配置同步" scheme="https://a-xionglijun.github.io/tags/%E9%85%8D%E7%BD%AE%E5%90%8C%E6%AD%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git-02</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/git-02/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/git-02/</id>
+    <published>2026-04-21T03:07:48.725Z</published>
+    <updated>2026-04-21T04:38:09.757Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;生成-SSH-key&quot;&gt;&lt;a href=&quot;#生成-SSH-key&quot; class=&quot;headerlink&quot; title=&quot;生成 SSH key&quot;&gt;&lt;/a&gt;生成 SSH key&lt;/h4&gt;&lt;p&gt;① 打开 Git Bash&lt;/p&gt;
+&lt;p&gt;② 粘贴如下的命令，并将</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://a-xionglijun.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="Git" scheme="https://a-xionglijun.github.io/categories/%E5%B7%A5%E5%85%B7/Git/"/>
+    
+    
+    <category term="Git" scheme="https://a-xionglijun.github.io/tags/Git/"/>
+    
+    <category term="GitHub" scheme="https://a-xionglijun.github.io/tags/GitHub/"/>
+    
+    <category term="SSH" scheme="https://a-xionglijun.github.io/tags/SSH/"/>
+    
+    <category term="分支管理" scheme="https://a-xionglijun.github.io/tags/%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git-01</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/git-01/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/git-01/</id>
+    <published>2026-04-21T03:07:48.725Z</published>
+    <updated>2026-04-21T04:38:09.722Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Git-基础概念&quot;&gt;&lt;a href=&quot;#Git-基础概念&quot; class=&quot;headerlink&quot; title=&quot;Git 基础概念&quot;&gt;&lt;/a&gt;Git 基础概念&lt;/h2&gt;&lt;h3 id=&quot;什么是-Git&quot;&gt;&lt;a href=&quot;#什么是-Git&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://a-xionglijun.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="Git" scheme="https://a-xionglijun.github.io/categories/%E5%B7%A5%E5%85%B7/Git/"/>
+    
+    
+    <category term="Git" scheme="https://a-xionglijun.github.io/tags/Git/"/>
+    
+    <category term="版本控制" scheme="https://a-xionglijun.github.io/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
+    
+    <category term="基础" scheme="https://a-xionglijun.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>keep-alive内置组件的作用</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/keep-alive/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/keep-alive/</id>
+    <published>2026-04-21T03:07:48.725Z</published>
+    <updated>2026-04-21T04:38:09.789Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;利用-Vue-中-keep-alive，快速实现页面缓存&quot;&gt;&lt;a href=&quot;#利用-Vue-中-keep-alive，快速实现页面缓存&quot; class=&quot;headerlink&quot; title=&quot;利用 Vue 中</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/"/>
+    
+    
+    <category term="keep-alive" scheme="https://a-xionglijun.github.io/tags/keep-alive/"/>
+    
+    <category term="组件缓存" scheme="https://a-xionglijun.github.io/tags/%E7%BB%84%E4%BB%B6%E7%BC%93%E5%AD%98/"/>
+    
+    <category term="生命周期" scheme="https://a-xionglijun.github.io/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>promise和axios</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/promise-he-axios/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/promise-he-axios/</id>
+    <published>2026-04-21T03:07:48.725Z</published>
+    <updated>2026-04-21T04:38:09.822Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;接口调用方式&quot;&gt;&lt;a href=&quot;#接口调用方式&quot; class=&quot;headerlink&quot; title=&quot;接口调用方式&quot;&gt;&lt;/a&gt;接口调用方式&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;原生 ajax&lt;/li&gt;
+&lt;li&gt;基于 jQuery 的</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="JavaScript" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://a-xionglijun.github.io/tags/JavaScript/"/>
+    
+    <category term="Promise" scheme="https://a-xionglijun.github.io/tags/Promise/"/>
+    
+    <category term="Axios" scheme="https://a-xionglijun.github.io/tags/Axios/"/>
+    
+    <category term="Fetch" scheme="https://a-xionglijun.github.io/tags/Fetch/"/>
+    
+    <category term="网络请求" scheme="https://a-xionglijun.github.io/tags/%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>toRGB函数</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/torgb/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/torgb/</id>
+    <published>2026-04-21T03:07:48.725Z</published>
+    <updated>2026-04-21T04:38:09.854Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;转换 CSS 中的颜色编码&lt;br&gt;如：&lt;br&gt;// alert(toRGB(‘#0000FF’)) // 输出 rgb(0, 0, 255)&lt;br&gt;// alert(toRGB(‘invalid’)) // 输出 invalid&lt;br&gt;//</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="JavaScript" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://a-xionglijun.github.io/tags/JavaScript/"/>
+    
+    <category term="工具函数" scheme="https://a-xionglijun.github.io/tags/%E5%B7%A5%E5%85%B7%E5%87%BD%E6%95%B0/"/>
+    
+    <category term="颜色转换" scheme="https://a-xionglijun.github.io/tags/%E9%A2%9C%E8%89%B2%E8%BD%AC%E6%8D%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改头像</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/xiu-gai-tou-xiang/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/xiu-gai-tou-xiang/</id>
+    <published>2026-04-21T03:07:01.222Z</published>
+    <updated>2026-04-21T04:38:10.107Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;修改头像&quot;&gt;&lt;a href=&quot;#修改头像&quot; class=&quot;headerlink&quot; title=&quot;修改头像&quot;&gt;&lt;/a&gt;修改头像&lt;/h3&gt;&lt;h4 id=&quot;1-图片上传预览&quot;&gt;&lt;a href=&quot;#1-图片上传预览&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/"/>
+    
+    
+    <category term="图片上传" scheme="https://a-xionglijun.github.io/tags/%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/"/>
+    
+    <category term="头像裁剪" scheme="https://a-xionglijun.github.io/tags/%E5%A4%B4%E5%83%8F%E8%A3%81%E5%89%AA/"/>
+    
+    <category term="项目案例" scheme="https://a-xionglijun.github.io/tags/%E9%A1%B9%E7%9B%AE%E6%A1%88%E4%BE%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>圣杯布局</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/sheng-bei-bu-ju/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/sheng-bei-bu-ju/</id>
+    <published>2026-04-21T03:07:01.222Z</published>
+    <updated>2026-04-21T04:38:10.139Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;中间盒子优先渲染，两边的盒子框子宽度固定不变，即使页面宽度变小，也不影响我们的浏览。&lt;strong&gt;注意：为了安全起见，最好还是给body加一个最小宽度!&lt;/strong&gt; &lt;/p&gt;
+&lt;h3 id=&quot;圣杯布局要求&quot;&gt;&lt;a href=&quot;#圣杯布局要求&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/CSS/"/>
+    
+    
+    <category term="HTML" scheme="https://a-xionglijun.github.io/tags/HTML/"/>
+    
+    <category term="CSS" scheme="https://a-xionglijun.github.io/tags/CSS/"/>
+    
+    <category term="布局" scheme="https://a-xionglijun.github.io/tags/%E5%B8%83%E5%B1%80/"/>
+    
+    <category term="圣杯布局" scheme="https://a-xionglijun.github.io/tags/%E5%9C%A3%E6%9D%AF%E5%B8%83%E5%B1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>循环定时器</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/xun-huan-ding-shi-qi/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/xun-huan-ding-shi-qi/</id>
+    <published>2026-04-21T03:07:01.222Z</published>
+    <updated>2026-04-21T04:38:10.169Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;从 1 开始每一秒打印一个数，打印到 10 时停止&lt;/p&gt;
+&lt;h3 id=&quot;实现功能&quot;&gt;&lt;a href=&quot;#实现功能&quot; class=&quot;headerlink&quot; title=&quot;实现功能&quot;&gt;&lt;/a&gt;实现功能&lt;/h3&gt;&lt;h5 id=&quot;方法一&quot;&gt;&lt;a href=&quot;#方法一&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="JavaScript" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://a-xionglijun.github.io/tags/JavaScript/"/>
+    
+    <category term="定时器" scheme="https://a-xionglijun.github.io/tags/%E5%AE%9A%E6%97%B6%E5%99%A8/"/>
+    
+    <category term="闭包" scheme="https://a-xionglijun.github.io/tags/%E9%97%AD%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>个人笔记 -dome</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/ge-ren-bi-ji-dome/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/ge-ren-bi-ji-dome/</id>
+    <published>2026-04-21T03:07:01.221Z</published>
+    <updated>2026-04-21T04:38:10.011Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot; language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;DOCTYPE</summary>
+        
+      
+    
+    
+    
+    <category term="杂记" scheme="https://a-xionglijun.github.io/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    <category term="笔记" scheme="https://a-xionglijun.github.io/categories/%E6%9D%82%E8%AE%B0/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://a-xionglijun.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="示例代码" scheme="https://a-xionglijun.github.io/tags/%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>个人笔记</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/ge-ren-bi-ji/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/ge-ren-bi-ji/</id>
+    <published>2026-04-21T03:07:01.221Z</published>
+    <updated>2026-04-21T04:38:10.043Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;对象替换冒个字段名&quot;&gt;&lt;a href=&quot;#对象替换冒个字段名&quot; class=&quot;headerlink&quot; title=&quot;对象替换冒个字段名&quot;&gt;&lt;/a&gt;对象替换冒个字段名&lt;/h2&gt;&lt;pre class=&quot; language-js&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="杂记" scheme="https://a-xionglijun.github.io/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    <category term="笔记" scheme="https://a-xionglijun.github.io/categories/%E6%9D%82%E8%AE%B0/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="JavaScript" scheme="https://a-xionglijun.github.io/tags/JavaScript/"/>
+    
+    <category term="笔记" scheme="https://a-xionglijun.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="API 封装" scheme="https://a-xionglijun.github.io/tags/API-%E5%B0%81%E8%A3%85/"/>
+    
+  </entry>
+  
+</feed>
