@@ -87,7 +87,7 @@
     <link href="https://a-xionglijun.github.io/2026/04/21/vue-zu-jian-zhi-jian-tong-xin/"/>
     <id>https://a-xionglijun.github.io/2026/04/21/vue-zu-jian-zhi-jian-tong-xin/</id>
     <published>2026-04-21T03:07:48.726Z</published>
-    <updated>2026-04-21T04:41:49.988Z</updated>
+    <updated>2026-04-21T04:45:04.757Z</updated>
     
     
       
@@ -112,6 +112,37 @@
     <category term="Vuex" scheme="https://a-xionglijun.github.io/tags/Vuex/"/>
     
     <category term="provide 和 inject" scheme="https://a-xionglijun.github.io/tags/provide-%E5%92%8C-inject/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>依赖注入</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/yi-lai-zhu-ru/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/yi-lai-zhu-ru/</id>
+    <published>2026-04-21T03:07:48.726Z</published>
+    <updated>2026-04-21T04:38:10.074Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;依赖注入&quot;&gt;&lt;a href=&quot;#依赖注入&quot; class=&quot;headerlink&quot; title=&quot;依赖注入&quot;&gt;&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/"/>
+    
+    
+    <category term="组件通信" scheme="https://a-xionglijun.github.io/tags/%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1/"/>
+    
+    <category term="provide 和 inject" scheme="https://a-xionglijun.github.io/tags/provide-%E5%92%8C-inject/"/>
+    
+    <category term="依赖注入" scheme="https://a-xionglijun.github.io/tags/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/"/>
     
   </entry>
   
@@ -144,37 +175,6 @@
     <category term="包管理器" scheme="https://a-xionglijun.github.io/tags/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/"/>
     
     <category term="npm" scheme="https://a-xionglijun.github.io/tags/npm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>依赖注入</title>
-    <link href="https://a-xionglijun.github.io/2026/04/21/yi-lai-zhu-ru/"/>
-    <id>https://a-xionglijun.github.io/2026/04/21/yi-lai-zhu-ru/</id>
-    <published>2026-04-21T03:07:48.726Z</published>
-    <updated>2026-04-21T04:38:10.074Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;依赖注入&quot;&gt;&lt;a href=&quot;#依赖注入&quot; class=&quot;headerlink&quot; title=&quot;依赖注入&quot;&gt;&lt;/a&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/"/>
-    
-    
-    <category term="组件通信" scheme="https://a-xionglijun.github.io/tags/%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1/"/>
-    
-    <category term="provide 和 inject" scheme="https://a-xionglijun.github.io/tags/provide-%E5%92%8C-inject/"/>
-    
-    <category term="依赖注入" scheme="https://a-xionglijun.github.io/tags/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/"/>
     
   </entry>
   
@@ -436,37 +436,6 @@
   </entry>
   
   <entry>
-    <title>修改头像</title>
-    <link href="https://a-xionglijun.github.io/2026/04/21/xiu-gai-tou-xiang/"/>
-    <id>https://a-xionglijun.github.io/2026/04/21/xiu-gai-tou-xiang/</id>
-    <published>2026-04-21T03:07:01.222Z</published>
-    <updated>2026-04-21T04:38:10.107Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;修改头像&quot;&gt;&lt;a href=&quot;#修改头像&quot; class=&quot;headerlink&quot; title=&quot;修改头像&quot;&gt;&lt;/a&gt;修改头像&lt;/h3&gt;&lt;h4 id=&quot;1-图片上传预览&quot;&gt;&lt;a href=&quot;#1-图片上传预览&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/"/>
-    
-    
-    <category term="图片上传" scheme="https://a-xionglijun.github.io/tags/%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/"/>
-    
-    <category term="头像裁剪" scheme="https://a-xionglijun.github.io/tags/%E5%A4%B4%E5%83%8F%E8%A3%81%E5%89%AA/"/>
-    
-    <category term="项目案例" scheme="https://a-xionglijun.github.io/tags/%E9%A1%B9%E7%9B%AE%E6%A1%88%E4%BE%8B/"/>
-    
-  </entry>
-  
-  <entry>
     <title>圣杯布局</title>
     <link href="https://a-xionglijun.github.io/2026/04/21/sheng-bei-bu-ju/"/>
     <id>https://a-xionglijun.github.io/2026/04/21/sheng-bei-bu-ju/</id>
@@ -497,6 +466,37 @@
     <category term="布局" scheme="https://a-xionglijun.github.io/tags/%E5%B8%83%E5%B1%80/"/>
     
     <category term="圣杯布局" scheme="https://a-xionglijun.github.io/tags/%E5%9C%A3%E6%9D%AF%E5%B8%83%E5%B1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改头像</title>
+    <link href="https://a-xionglijun.github.io/2026/04/21/xiu-gai-tou-xiang/"/>
+    <id>https://a-xionglijun.github.io/2026/04/21/xiu-gai-tou-xiang/</id>
+    <published>2026-04-21T03:07:01.222Z</published>
+    <updated>2026-04-21T04:38:10.107Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;修改头像&quot;&gt;&lt;a href=&quot;#修改头像&quot; class=&quot;headerlink&quot; title=&quot;修改头像&quot;&gt;&lt;/a&gt;修改头像&lt;/h3&gt;&lt;h4 id=&quot;1-图片上传预览&quot;&gt;&lt;a href=&quot;#1-图片上传预览&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Vue" scheme="https://a-xionglijun.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/"/>
+    
+    
+    <category term="图片上传" scheme="https://a-xionglijun.github.io/tags/%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/"/>
+    
+    <category term="头像裁剪" scheme="https://a-xionglijun.github.io/tags/%E5%A4%B4%E5%83%8F%E8%A3%81%E5%89%AA/"/>
+    
+    <category term="项目案例" scheme="https://a-xionglijun.github.io/tags/%E9%A1%B9%E7%9B%AE%E6%A1%88%E4%BE%8B/"/>
     
   </entry>
   
